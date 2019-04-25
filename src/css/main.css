@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 56px;
+  width: 100%;
+  background: white;
+  box-shadow: 0px -1px 3px 2px #b9b9b9; }
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 3;
+  cursor: pointer; }
+  .hamburger .hamburger-line {
+    height: 2px;
+    width: 24px;
+    background: #e9cab4;
+    border-radius: 2px; }
+    .hamburger .hamburger-line:nth-child(1) {
+      margin-bottom: 5px; }
+    .hamburger .hamburger-line:nth-child(2) {
+      margin-bottom: 5px; }
+
+.header-text {
+  margin: 13px;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  color: #e9cab4;
+  color: #464f69;
+  text-align: center; }
