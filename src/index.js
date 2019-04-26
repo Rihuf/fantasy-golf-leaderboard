@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import "./css/main.css";
 
-import App from "./components/App";
+import App from "./containers/App";
 
 ReactDOM.render(
   <BrowserRouter>

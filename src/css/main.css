@@ -18,21 +18,34 @@ body {
   top: 20px;
   right: 20px;
   z-index: 3;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.3s ease-out; }
   .hamburger .hamburger-line {
     height: 2px;
     width: 24px;
     background: #e9cab4;
-    border-radius: 2px; }
+    border-radius: 2px;
+    transition: all 0.3s ease-out; }
     .hamburger .hamburger-line:nth-child(1) {
       margin-bottom: 5px; }
     .hamburger .hamburger-line:nth-child(2) {
       margin-bottom: 5px; }
+  .hamburger.show-menu {
+    transform: rotate(180deg); }
+    .hamburger.show-menu .hamburger-line:nth-child(1) {
+      transform: rotate(45deg);
+      height: 2px;
+      background: #464f69; }
+    .hamburger.show-menu .hamburger-line:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+      height: 2px;
+      background: #464f69; }
+    .hamburger.show-menu .hamburger-line:nth-child(2) {
+      display: none; }
 
 .header-text {
   margin: 13px;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
-  color: #e9cab4;
   color: #464f69;
   text-align: center; }
