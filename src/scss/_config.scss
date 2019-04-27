@@ -1,0 +1,7 @@
+$primary-color: #464f69;
+$secondary-color: #e9cab4;
+$primary-font: "Zilla Slab", serif;
+
+@mixin easeOut {
+  transition: all 0.3s ease-out;
+}

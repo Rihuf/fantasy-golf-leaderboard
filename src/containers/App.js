@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Hamburger from "./Hamburger.js";
+import Menu from "./Menu.js";
 
 export default class App extends Component {
-  state = { showMenu: false };
+  state = { showMenu: false, showTournaments: false };
 
   hamburgerClick = e => {
     console.log(this.state.showMenu);
@@ -13,39 +14,36 @@ export default class App extends Component {
     }
   };
 
+  tournamentsClick = e => {
+    console.log(this.state.showTournaments);
+    if (!this.state.showTournaments) {
+      this.setState({ showTournaments: true });
+    } else {
+      this.setState({ showTournaments: false });
+    }
+  };
+
   render() {
     return (
       <header>
-        <div className="nav-bar">
-          <p className="header-text">The Salisbury Open</p>
+        <div className={`nav-bar ${this.state.showMenu ? "expand" : ""}`}>
+          <h1
+            className={`header-text ${
+              this.state.showMenu ? "hide-header-text" : ""
+            }`}
+            onClick={this.hamburgerClick}
+          >
+            The Salisbury Open
+          </h1>
           <Hamburger
             isActive={this.state.showMenu}
             hamburgerClick={this.hamburgerClick}
           />
-        </div>
-        <div className="menu">
-          <ul className="menu-nav">
-            <li className="nav-item">
-              <a href="/" className="nav-link">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">
-                Tournaments
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">
-                Rules and FAQ
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">
-                About
-              </a>
-            </li>
-          </ul>
+          <Menu
+            isMenuActive={this.state.showMenu}
+            isTournamentsActive={this.state.showTournaments}
+            tournamentsClick={this.tournamentsClick}
+          />
         </div>
       </header>
     );

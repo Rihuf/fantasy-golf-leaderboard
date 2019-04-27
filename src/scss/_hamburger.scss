@@ -1,0 +1,47 @@
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 3;
+  cursor: pointer;
+  @include easeOut;
+
+  .hamburger-line {
+    height: 2px;
+    width: 24px;
+    background: $secondary-color;
+    border-radius: 2px;
+    @include easeOut;
+
+    &:nth-child(1) {
+      margin-bottom: 5px;
+    }
+    &:nth-child(2) {
+      margin-bottom: 5px;
+    }
+  }
+
+  //when menu is opened, rotate lines into an X, denoting a close button
+  &.show-menu {
+    transform: rotate(180deg);
+
+    .hamburger-line {
+      //line 1 will rotate
+      &:nth-child(1) {
+        transform: rotate(45deg);
+        height: 2px;
+        background: $primary-color;
+      }
+      //line 3 will rotate opposite
+      &:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+        height: 2px;
+        background: $primary-color;
+      }
+      //line 2 will hide
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+}

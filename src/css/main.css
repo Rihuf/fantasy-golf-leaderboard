@@ -1,18 +1,3 @@
-* {
-  box-sizing: border-box; }
-
-body {
-  margin: 0; }
-
-.nav-bar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 56px;
-  width: 100%;
-  background: white;
-  box-shadow: 0px -1px 3px 2px #b9b9b9; }
-
 .hamburger {
   position: absolute;
   top: 20px;
@@ -43,9 +28,89 @@ body {
     .hamburger.show-menu .hamburger-line:nth-child(2) {
       display: none; }
 
+.nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 56px;
+  width: 100%;
+  z-index: 2;
+  background: white;
+  box-shadow: 0px -1px 3px 2px #b9b9b9;
+  transition: all 0.3s ease-out; }
+  .nav-bar.expand {
+    height: 100vh;
+    width: 100%;
+    background: #e9cab4; }
+
 .header-text {
   margin: 13px;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
+  font-weight: 400;
   color: #464f69;
   text-align: center; }
+  .header-text.hide-header-text {
+    display: none; }
+
+.nav-spacer {
+  width: 100%;
+  height: 20vh; }
+
+.menu {
+  visibility: hidden; }
+  .menu.show-menu {
+    visibility: visible; }
+  .menu-nav {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    font-size: 2rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center; }
+
+.nav-link {
+  color: #fff; }
+
+.tournament-li {
+  margin: 0;
+  padding: 0;
+  color: #fff; }
+
+.tournaments-nav-container {
+  height: 0;
+  width: 100%;
+  background: #464f69;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-out; }
+  .tournaments-nav-container.show-tournaments {
+    height: 20vh; }
+
+.tournaments-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.5rem;
+  line-height: 1.3; }
+
+.tournament-nav-link {
+  color: #838dac; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
