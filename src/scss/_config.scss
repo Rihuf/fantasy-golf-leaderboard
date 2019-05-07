@@ -1,6 +1,18 @@
 $primary-color: #464f69;
 $secondary-color: #e9cab4;
-$primary-font: "Zilla Slab", serif;
+$primary-font: "Roboto", serif;
+
+$masters-primary: #016747;
+$masters-secondary: #f5e20c;
+$masters-tertiary: #039b77;
+
+$pga-primary: #233354;
+
+$open-primary: #191b3c;
+$open-secondary: #ffb400;
+
+$us-open-primary: #003865;
+$us-open-secondary: #c8102d;
 
 @mixin easeOut {
   transition: all 0.3s ease-out;

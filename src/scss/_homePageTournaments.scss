@@ -1,0 +1,86 @@
+.home-page-tournament-container {
+  width: 100%;
+  height: 200px;
+}
+.home-page-tournament-container2 {
+  width: 100%;
+  height: 200px;
+  background: $pga-primary;
+}
+.home-page-tournament-container3 {
+  width: 100%;
+  height: 200px;
+  background: $open-primary;
+}
+.home-page-tournament-container4 {
+  width: 100%;
+  height: 200px;
+  background: $us-open-primary;
+}
+
+.home-page-tournament-branding {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 40%;
+  height: 100%;
+  // background: pink;
+}
+
+.home-page-tournament-leaderboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+
+  .grid {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background: white;
+    text-align: center;
+    grid-gap: 1px;
+    background: rgb(231, 231, 231);
+
+    :nth-child(6n + 1) {
+      background: #fff;
+    }
+    :nth-child(6n + 2) {
+      background: #fff;
+    }
+    :nth-child(6n + 3) {
+      background: #fff;
+    }
+
+    :nth-child(6n + 4) {
+      background: #eee;
+    }
+    :nth-child(6n + 5) {
+      background: #eee;
+    }
+    :nth-child(6n + 6) {
+      background: #eee;
+    }
+
+    .position {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .player {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      padding-left: 3px;
+    }
+    .score {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
