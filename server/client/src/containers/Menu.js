@@ -24,7 +24,7 @@ export class Menu extends Component {
           >
             <ul className="tournaments-nav">
               <li className="tournaments-nav-item masters-nav">
-                <a href="/" className="tournament-nav-link">
+                <a href="/masters" className="tournament-nav-link">
                   MASTERS
                 </a>
               </li>

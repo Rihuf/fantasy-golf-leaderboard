@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "../store";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import MastersImage from "../assets/images/masters-logo.png";
@@ -216,33 +218,35 @@ export default class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <Navbar
-          showMenu={this.state.showMenu}
-          showTournaments={this.state.showTournaments}
-          hamburgerClick={this.hamburgerClick}
-          tournamentsClick={this.tournamentsClick}
-          tournamentsMenuClose={this.tournamentsMenuClose}
-        />
-        <Switch>
-          <Route exact path="/" render={() => <Redirect to="/home" />} />
-          <Route
-            exact
-            path="/home"
-            render={() => <Home appState={this.state} />}
+      <Provider store={store}>
+        <BrowserRouter>
+          <Navbar
+            showMenu={this.state.showMenu}
+            showTournaments={this.state.showTournaments}
+            hamburgerClick={this.hamburgerClick}
+            tournamentsClick={this.tournamentsClick}
+            tournamentsMenuClose={this.tournamentsMenuClose}
           />
-          <Route
-            path="/:tournament"
-            render={() => <Tournament tournament={this.state.masters} />}
-          />
-          {/* <Route
+          <Switch>
+            <Route exact path="/" render={() => <Redirect to="/home" />} />
+            <Route
+              exact
+              path="/home"
+              render={() => <Home appState={this.state} />}
+            />
+            <Route
+              path="/:tournament"
+              render={() => <Tournament tournament={this.state.masters} />}
+            />
+            {/* <Route
             exact
             path="/tournament"
             render={() => <Tournament appState={this.state} />}
           /> */}
-          {/* <Route exact path="/deals" render={() => <Deals />} /> */}
-        </Switch>
-      </BrowserRouter>
+            {/* <Route exact path="/deals" render={() => <Deals />} /> */}
+          </Switch>
+        </BrowserRouter>
+      </Provider>
     );
   }
 }

@@ -10,9 +10,9 @@ export class Tournament extends Component {
         <TournamentHeader tournament={tournament} />
         <div className="leaderboard-header-container">
           <div className="favorite">c</div>
-          <div className="position">1</div>
-          <div className="name">player</div>
-          <div className="score">total</div>
+          <div className="position">Pos</div>
+          <div className="name">Player</div>
+          <div className="score">Total</div>
         </div>
         <Leaderboard />
       </React.Fragment>

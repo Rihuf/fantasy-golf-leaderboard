@@ -5,7 +5,7 @@ export class Leaderboard extends Component {
   renderPlayers = () => {
     let array = [];
     for (let i = 0; i < 40; i++) {
-      array.push(<PlayerCard />);
+      array.push(<PlayerCard key={i} />);
     }
     return array;
   };
