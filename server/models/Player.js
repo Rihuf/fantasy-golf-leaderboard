@@ -17,7 +17,7 @@ const playerSchema = new Schema({
   },
   teams: [
     {
-      tournamentId: String,
+      tournamentName: String,
       roster: [{ type: Schema.Types.ObjectId, ref: "golfer" }]
     }
   ],

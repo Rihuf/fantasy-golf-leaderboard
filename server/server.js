@@ -20,7 +20,6 @@ app.get("/hello", (request, response) =>
 /*********************************************************
 Defing the routes from the ./routes folder
 **********************************************************/
-app.use("/api//tournament", require("./routes/myAPI/tournament"));
 app.use("/api/player", require("./routes/myAPI/player"));
 app.use("/api/golfer", require("./routes/myAPI/golfer"));
 

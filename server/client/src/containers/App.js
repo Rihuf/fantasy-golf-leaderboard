@@ -102,10 +102,10 @@ export default class App extends Component {
         }
       ]
     },
-    open: {
-      tournament: "Open",
-      color: "#191b3c",
-      src: OpenImage,
+    usopen: {
+      tournament: "US",
+      color: "#003865",
+      src: USOpenImage,
       round: "Round 1",
       leaderboard: [
         {
@@ -146,10 +146,10 @@ export default class App extends Component {
         }
       ]
     },
-    usOpen: {
-      tournament: "US",
-      color: "#003865",
-      src: USOpenImage,
+    open: {
+      tournament: "Open",
+      color: "#191b3c",
+      src: OpenImage,
       round: "Round 1",
       leaderboard: [
         {

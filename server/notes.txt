@@ -1,14 +1,6 @@
-GET
-myAPI/tournament/:id
-myAPI/player/
-myAPI/player/:id
-
-POST
-myAPI/player
-myAPI/golfer
-
-PUT
-myAPI/player/:id/:tournamentId/:golfer
------adds a golfer to a player's team for a specific tournamentId
-
-myAPI/golfer/:id/:tournament
+I can add a golfer with POST myAPI/golfer
+I can add a player with POST myAPI/player
+I can update a golfer's score for a specific tournament with PUT myAPI/golfer/:id/:tournamentName
+I can add a golfer to a player's tournament specific team with PUT /player/:id/:tournament/:golfer
+I can get all players with GET myAPI/player/
+I can get a specific player with GET myAPI/player/:id

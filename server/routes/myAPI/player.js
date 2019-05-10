@@ -11,7 +11,7 @@ description:   get all players
 **********************************************************/
 router.get("/", async (request, response) => {
   try {
-    const players = await Player.find().populate("player");
+    const players = await Player.find();
     response.json(players);
   } catch (error) {
     console.error(error.message);
@@ -20,8 +20,27 @@ router.get("/", async (request, response) => {
 });
 
 /*********************************************************
+route:         GET /player/:id
+description:   get player by Id
+**********************************************************/
+router.get("/:id", async (request, response) => {
+  try {
+    const player = await Player.findOne({ _id: request.params.id });
+    if (!player) {
+      return json
+        .status(400)
+        .json({ message: "No profile exists for this id." });
+    }
+    response.json(player);
+  } catch (error) {
+    console.error(error.message);
+    response.status(500).send("Server Error (from player.js)");
+  }
+});
+
+/*********************************************************
 route:         POST /player
-description:   Add or Update a player
+description:   Add a player
 **********************************************************/
 router.post(
   "/",
@@ -47,12 +66,11 @@ router.post(
 
     try {
       let player = await Player.findOne({ playerId });
-      //if player exists, overwrite the entry
+      //if player exists, send error
       if (player) {
         response
           .status(400)
           .json({ errors: [{ msg: "Player already exists" }] });
-        // update the player
       }
       //if player does not exist, create the entry
       else {
@@ -79,31 +97,36 @@ router.post(
 
 /*********************************************************
 route:         PUT /player/:id/:tournament/:golfer
-description:   Edit and player by adding a golfer to a player's team for a specific tournament
+description:   Edit a player by adding a golfer to a player's team for a specific tournament
 **********************************************************/
-router.put("/:id/:tournamentId/:golfer", async (request, response) => {
-  try {
-    //grab the player's Id from the route parameter
-    const player = await Player.findById(request.params.id);
-    //grab the tournament Id from the route parameter
-    const tournamentId = request.params.tournamentId;
-    //grab the golfer's id from the route parameter
-    const golferId = await Golfer.findById(request.params.golfer);
+router.put(
+  "/:id/tournament/:tournamentName/golfer/:golfer",
+  async (request, response) => {
+    try {
+      //grab the player's Id from the route parameter
+      const player = await Player.findById(request.params.id);
+      //grab the tournament Id from the route parameter
+      const tournamentName = request.params.tournamentName;
+      //grab the golfer's id from the route parameter
+      const golfer = await Golfer.findById(request.params.golfer);
 
-    player.teams.forEach(index => {
-      if (index.tournamentId == tournamentId) {
-        index.roster.unshift(golferId);
-      }
-    });
+      player.teams.forEach(index => {
+        if (index.tournamentName == tournamentName) {
+          index.roster.push(golfer);
+          console.log("golfer added to team.");
+          console.log(golfer);
+        }
+      });
 
-    await player.save();
+      await player.save();
 
-    console.log("(from player.js) Request.Body: ", request.body);
-    response.send(`(from player.js) New golfer added to player : ${player}`);
-  } catch (error) {
-    console.error(error.message);
-    response.status(500).send("Server Error (from player.js)");
+      console.log("(from player.js) Request.Body: ", request.body);
+      response.send(`(from player.js) New golfer added to player : ${player}`);
+    } catch (error) {
+      console.error(error.message);
+      response.status(500).send("Server Error (from player.js)");
+    }
   }
-});
+);
 
 module.exports = router;
