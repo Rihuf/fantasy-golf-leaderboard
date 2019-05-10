@@ -12,9 +12,6 @@ description:   add a golfer to my api
 router.post(
   "/",
   [
-    check("tournamentId", "Tournament ID is required")
-      .not()
-      .isEmpty(),
     check("golferId", "Golfer ID is required")
       .not()
       .isEmpty(),
@@ -22,12 +19,6 @@ router.post(
       .not()
       .isEmpty(),
     check("lastName", "Last Name is required")
-      .not()
-      .isEmpty(),
-    check("thru", "Thru is required")
-      .not()
-      .isEmpty(),
-    check("current_round", "Current Round is required")
       .not()
       .isEmpty()
   ],
@@ -39,13 +30,10 @@ router.post(
     }
 
     const {
-      tournamentId,
       golferId,
       firstName,
       lastName,
-      thru,
-      current_round,
-      scores,
+      tournaments,
       date_updated
     } = request.body;
 
@@ -61,13 +49,10 @@ router.post(
       //if golfer does not exist, create the entry
       else {
         golfer = new Golfer({
-          tournamentId,
           golferId,
           firstName,
           lastName,
-          thru,
-          current_round,
-          scores,
+          tournaments,
           date_updated
         });
 

@@ -3,10 +3,6 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const playerSchema = new Schema({
-  tournamentId: {
-    type: String,
-    require: true
-  },
   playerId: {
     type: String,
     require: true
@@ -19,7 +15,16 @@ const playerSchema = new Schema({
     type: String,
     require: true
   },
-  team: [{ type: Schema.Types.ObjectId, ref: "golfer" }]
+  teams: [
+    {
+      tournamentId: String,
+      roster: [{ type: Schema.Types.ObjectId, ref: "golfer" }]
+    }
+  ],
+  date_updated: {
+    type: Date,
+    default: Date.now
+  }
 });
 
 module.exports = Player = mongoose.model("player", playerSchema);

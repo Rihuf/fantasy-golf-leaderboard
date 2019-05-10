@@ -1,0 +1,14 @@
+GET
+myAPI/tournament/:id
+myAPI/player/
+myAPI/player/:id
+
+POST
+myAPI/player
+myAPI/golfer
+
+PUT
+myAPI/player/:id/:tournamentId/:golfer
+-----adds a golfer to a player's team for a specific tournamentId
+
+myAPI/golfer/:id/:tournament
