@@ -1,32 +1,23 @@
 const express = require("express");
-const connectDB = require("./config/db");
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
+const cors = require("cors");
 const app = express();
-
-//Connect to the database
-connectDB();
-
-//Initialize the middleware
-app.use(express.json({ extended: false }));
-
-/*********************************************************
-A test to ensure the server is up and running.
-Instructions: in cmd line, type npm run server.
-In Postman, Send a GET to: http://localhost:8000/hello
-**********************************************************/
-app.get("/hello", (request, response) =>
-  response.send("API is up and running.")
-);
-
-/*********************************************************
-Defing the routes from the ./routes folder
-**********************************************************/
-app.use("/api/player", require("./routes/myAPI/player"));
-app.use("/api/golfer", require("./routes/myAPI/golfer"));
-
-//Define the port we want to use
 const PORT = process.env.PORT || 8000;
 
-//Open the port and start the server.
-app.listen(PORT, () =>
-  console.log(`(from Server.js) Server started on port: ${PORT}`)
-);
+mongoose.connect("mongodb://localhost/TSO", { useNewUrlParser: true });
+
+app.use(cors());
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+const playerRoutes = require("./routes/player");
+const golferRoutes = require("./routes/golfer");
+
+app.use("/player", playerRoutes);
+app.use("/golfer", golferRoutes);
+
+app.listen(PORT, () => {
+  console.log("Node.js listening on port " + 8000);
+});

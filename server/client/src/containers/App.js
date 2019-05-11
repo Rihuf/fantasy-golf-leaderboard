@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
-import { Provider } from "react-redux";
-import store from "../store";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import MastersImage from "../assets/images/masters-logo.png";
@@ -15,7 +13,7 @@ export default class App extends Component {
     showMenu: false,
     showTournaments: false,
     masters: {
-      tournament: "Masters",
+      tournament: "masters",
       color: "#039b77",
       src: MastersImage,
       round: "Round 1",
@@ -59,7 +57,7 @@ export default class App extends Component {
       ]
     },
     pga: {
-      tournament: "PGA",
+      tournament: "pga",
       color: "#233354",
       src: PGAImage,
       round: "Round 1",
@@ -103,7 +101,7 @@ export default class App extends Component {
       ]
     },
     usopen: {
-      tournament: "US",
+      tournament: "usopen",
       color: "#003865",
       src: USOpenImage,
       round: "Round 1",
@@ -147,7 +145,7 @@ export default class App extends Component {
       ]
     },
     open: {
-      tournament: "Open",
+      tournament: "open",
       color: "#191b3c",
       src: OpenImage,
       round: "Round 1",
@@ -218,35 +216,33 @@ export default class App extends Component {
 
   render() {
     return (
-      <Provider store={store}>
-        <BrowserRouter>
-          <Navbar
-            showMenu={this.state.showMenu}
-            showTournaments={this.state.showTournaments}
-            hamburgerClick={this.hamburgerClick}
-            tournamentsClick={this.tournamentsClick}
-            tournamentsMenuClose={this.tournamentsMenuClose}
+      <BrowserRouter>
+        <Navbar
+          showMenu={this.state.showMenu}
+          showTournaments={this.state.showTournaments}
+          hamburgerClick={this.hamburgerClick}
+          tournamentsClick={this.tournamentsClick}
+          tournamentsMenuClose={this.tournamentsMenuClose}
+        />
+        <Switch>
+          <Route exact path="/" render={() => <Redirect to="/home" />} />
+          <Route
+            exact
+            path="/home"
+            render={() => <Home appState={this.state} />}
           />
-          <Switch>
-            <Route exact path="/" render={() => <Redirect to="/home" />} />
-            <Route
-              exact
-              path="/home"
-              render={() => <Home appState={this.state} />}
-            />
-            <Route
-              path="/:tournament"
-              render={() => <Tournament tournament={this.state.masters} />}
-            />
-            {/* <Route
+          <Route
+            path="/:tournament"
+            render={() => <Tournament tournament={this.state.masters} />}
+          />
+          {/* <Route
             exact
             path="/tournament"
             render={() => <Tournament appState={this.state} />}
           /> */}
-            {/* <Route exact path="/deals" render={() => <Deals />} /> */}
-          </Switch>
-        </BrowserRouter>
-      </Provider>
+          {/* <Route exact path="/deals" render={() => <Deals />} /> */}
+        </Switch>
+      </BrowserRouter>
     );
   }
 }

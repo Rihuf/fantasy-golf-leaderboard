@@ -3,7 +3,7 @@ const router = express.Router();
 const { check, validationResult } = require("express-validator/check");
 
 //Bring in the golfer model
-const Golfer = require("../../models/Golfer");
+const Golfer = require("../models/Golfer");
 
 /*********************************************************
 route:         POST /golfer
@@ -92,55 +92,5 @@ router.put("/:id/tournament/:tournamentName", async (request, response) => {
     response.status(500).send("Server Error (from player.js)");
   }
 });
-
-/*********************************************************
-route:         PUT /golfer/:id/:tournamentId
-description:   Edit a golfer's scores accoring to tournamentId
-**********************************************************/
-/*
-router.put("/:id/:tournamentId", async (request, response) => {
-  const errors = validationResult(request);
-  //if errors is not empty, send a 400 reponse with the error description
-  if (!errors.isEmpty()) {
-    return response.status(400).json({ errors: errors.array() });
-  }
-
-  const golfer = await Golfer.findById(request.params.id);
-  const tournamentIdParam = request.params.tournamentId;
-
-  const { tournamentId, thru, current_round, scores } = request.body;
-
-  try {
-    if (golfer) {
-      golfer.tournaments.forEach(index => {
-        if (index.tournamentId == tournamentIdParam) {
-          //build the score object that I will update the golfer instanc with
-          const scoreInstance = {};
-          scoreInstance.tournamentId = tournamentId;
-          scoreInstance.thru = thru;
-          scoreInstance.current_round = current_round;
-          scoreInstance.scores = scores;
-
-          console.log(scoreInstance);
-          Golfer.findOneAndUpdate(
-            { _id: golfer },
-            { $set: { "tournaments.$[element]": scoreInstance } },
-            {
-              multi: true,
-              arrayFilters: [{ "element.tournamentId": tournamentId }]
-            }
-          );
-        }
-      });
-      await golfer.save();
-      return response.json(golfer);
-    }
-    console.log("(from golfer.js) Golfer does not exist.");
-  } catch (error) {
-    console.error(error.message);
-    response.status(500).send("Server Error (from player.js)");
-  }
-});
-*/
 
 module.exports = router;

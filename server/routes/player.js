@@ -2,8 +2,8 @@ const express = require("express");
 const router = express.Router();
 const { check, validationResult } = require("express-validator/check");
 
-const Golfer = require("../../models/Golfer");
-const Player = require("../../models/Player");
+const Golfer = require("../models/Golfer");
+const Player = require("../models/Player");
 
 /*********************************************************
 route:         GET /player
@@ -11,7 +11,11 @@ description:   get all players
 **********************************************************/
 router.get("/", async (request, response) => {
   try {
-    const players = await Player.find();
+    console.log(request.query.quantity);
+    let quantity = parseInt(request.query.quantity);
+    const players = await Player.find()
+      .populate("teams.roster")
+      .limit(quantity);
     response.json(players);
   } catch (error) {
     console.error(error.message);

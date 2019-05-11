@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import showMenuReducer from "./showMenuReducer";
+import playersReducer from "./playersReducer";
 
 export default combineReducers({
-  showMenu: showMenuReducer
+  players: playersReducer
 });
