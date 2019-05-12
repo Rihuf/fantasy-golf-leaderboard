@@ -11,7 +11,6 @@ description:   get all players
 **********************************************************/
 router.get("/", async (request, response) => {
   try {
-    console.log(request.query.quantity);
     let quantity = parseInt(request.query.quantity);
     const players = await Player.find()
       .populate("teams.roster")

@@ -12,7 +12,7 @@ export class Tournament extends Component {
       const { assets } = this.props;
       return assets.map(index => {
         if (index.tournament == tourny)
-          return <TournamentHeader tournament={index} />;
+          return <TournamentHeader key={1} tournament={index} />;
       });
     }
   }
@@ -28,7 +28,7 @@ export class Tournament extends Component {
           <div className="name">Player</div>
           <div className="score">Total</div>
         </div>
-        <Leaderboard tournament={tournament} />
+        <Leaderboard key={tournament} tournament={tournament} />
       </React.Fragment>
     );
   }

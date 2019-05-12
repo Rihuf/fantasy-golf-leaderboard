@@ -29,18 +29,19 @@ export class Menu extends Component {
                 </a>
               </li>
               <li className="tournaments-nav-item pga-nav">
-                <a href="/" className="tournament-nav-link">
+                <a href="/pga" className="tournament-nav-link">
                   PGA CHAMPIONSHIP
                 </a>
               </li>
-              <li className="tournaments-nav-item open-nav">
-                <a href="/" className="tournament-nav-link">
-                  THE OPEN
+
+              <li className="tournaments-nav-item usopen-nav">
+                <a href="/usopen" className="tournament-nav-link">
+                  U.S. OPEN
                 </a>
               </li>
-              <li className="tournaments-nav-item usopen-nav">
-                <a href="/" className="tournament-nav-link">
-                  U.S. OPEN
+              <li className="tournaments-nav-item open-nav">
+                <a href="/open" className="tournament-nav-link">
+                  THE OPEN
                 </a>
               </li>
             </ul>

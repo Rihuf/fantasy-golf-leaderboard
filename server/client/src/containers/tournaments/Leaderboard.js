@@ -15,9 +15,15 @@ export class Leaderboard extends Component {
       return <div>Loading...</div>;
     } else {
       const { players, tournament } = this.props;
-      // console.log("params", this.props.params);
+      // console.log("params", players[0].playerId);
       return players.map(index => {
-        return <PlayerCard player={index} tournament={tournament} />;
+        return (
+          <PlayerCard
+            player={index}
+            tournament={tournament}
+            key={index.playerId}
+          />
+        );
       });
     }
   }

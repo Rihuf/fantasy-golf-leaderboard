@@ -15,7 +15,7 @@ export class PlayerCard extends Component {
       return <div>Loading...</div>;
     } else {
       const { player, tournament } = this.props;
-      console.log(player);
+      console.log("from PlayerCard: ", player.playerId);
       return player.teams.map(index => {
         if (index.tournamentName == tournament)
           return (
@@ -23,6 +23,7 @@ export class PlayerCard extends Component {
               isActive={this.state.teamViewActive}
               team={index.roster}
               tournament={tournament}
+              key={player.playerId}
             />
           );
       });
