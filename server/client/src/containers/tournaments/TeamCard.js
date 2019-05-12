@@ -3,8 +3,21 @@ import GolferCard from "./GolferCard";
 import TeamSums from "./TeamSums";
 
 export class TeamCard extends Component {
+  renderGolferCard() {
+    if (this.props.team.length === 0) {
+      return <div>Loading...</div>;
+    } else {
+      const { team, tournament } = this.props;
+      return team.map(index => {
+        if (index.tournaments[tournament])
+          return <GolferCard golfer={index} tournament={tournament} />;
+      });
+    }
+  }
+
   render() {
-    const { isActive } = this.props;
+    console.log("from TeamCard: ", this.props);
+    const { team, tournament, isActive } = this.props;
     return (
       <div className={isActive ? "team-container show" : "team-container"}>
         <div className="team-header-container">
@@ -15,16 +28,7 @@ export class TeamCard extends Component {
           <div className="round4">R4</div>
           <div className="hole">H</div>
         </div>
-        <GolferCard />
-        <GolferCard />
-        <GolferCard />
-        <GolferCard />
-        <GolferCard />
-        <GolferCard />
-        <GolferCard />
-        <GolferCard />
-        <GolferCard />
-        <GolferCard />
+        {this.renderGolferCard()}
         <TeamSums />
       </div>
     );

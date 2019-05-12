@@ -1,18 +1,26 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import HomePageTournamentBlock from "./TournamentBlock";
 
 export class HomePageTournaments extends Component {
+  renderBlocks() {
+    if (this.props.assets.length === 0) {
+      return <div>Loading...</div>;
+    } else {
+      const { assets } = this.props;
+      return assets.map(index => {
+        return <HomePageTournamentBlock tournament={index} />;
+      });
+    }
+  }
+
   render() {
-    const { masters, pga, usopen, open } = this.props.tournaments;
-    return (
-      <React.Fragment>
-        <HomePageTournamentBlock tournament={masters} />
-        <HomePageTournamentBlock tournament={pga} />
-        <HomePageTournamentBlock tournament={usopen} />
-        <HomePageTournamentBlock tournament={open} />
-      </React.Fragment>
-    );
+    return <React.Fragment>{this.renderBlocks()}</React.Fragment>;
   }
 }
 
-export default HomePageTournaments;
+const mapStateToProps = state => {
+  return { assets: state.assets };
+};
+
+export default connect(mapStateToProps)(HomePageTournaments);

@@ -233,7 +233,9 @@ export default class App extends Component {
           />
           <Route
             path="/:tournament"
-            render={() => <Tournament tournament={this.state.masters} />}
+            render={props => (
+              <Tournament {...props} tournament={this.state.masters} />
+            )}
           />
           {/* <Route
             exact
