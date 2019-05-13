@@ -6,7 +6,7 @@ export class Hamburger extends Component {
     const { isActive, hamburgerClick } = this.props;
     return (
       <div
-        className={`hamburger ${isActive ? "show-menu" : ""}`}
+        className={`hamburger noSelect ${isActive ? "show-menu" : ""}`}
         onClick={hamburgerClick}
       >
         <div className="hamburger-line" />

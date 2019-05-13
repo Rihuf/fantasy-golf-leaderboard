@@ -36,7 +36,7 @@
   width: 100%;
   z-index: 2;
   background: white;
-  box-shadow: 0px -1px 3px 2px #272727;
+  box-shadow: 0px -1px 3px 2px #1e1e1e;
   transition: all 0.3s ease-out; }
   .nav-bar.expand {
     height: 100vh;
@@ -135,17 +135,19 @@
   align-items: center;
   justify-content: center;
   float: left;
-  width: 40%;
+  width: 50%;
   height: 100%; }
 
 .home-page-tournament-leaderboard {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 60%;
-  height: 100%; }
+  justify-content: left;
+  width: 50%;
+  height: 100%;
+  font-family: "Roboto", sans-serif; }
   .home-page-tournament-leaderboard .grid {
-    width: 80%;
+    text-decoration: none;
+    width: 90%;
     height: 80%;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -179,26 +181,22 @@
       align-items: center;
       justify-content: center; }
 
+a {
+  color: #1e1e1e; }
+
 .tournament-header-container {
-  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
   background: pink;
   width: 100%;
   height: 80px;
   overflow: hidden; }
   .tournament-header-container img {
-    position: absolute;
     filter: grayscale(100%);
-    top: -80px;
-    left: -10px; }
-
-.tournament-header-text {
-  position: absolute;
-  bottom: -13px;
-  right: 10px;
-  color: white;
-  font-family: "Roboto", serif;
-  text-transform: lowercase;
-  font-size: 3rem; }
+    top: 20px;
+    left: 100px; }
 
 .leaderboard-header-container {
   position: sticky;
@@ -209,14 +207,12 @@
   color: white;
   display: grid;
   grid-gap: 1px;
-  grid-template-columns: 30px 40px auto 50px;
+  grid-template-columns: 60px auto 60px;
   border-top: 1px solid white;
-  border-bottom: 1px solid white; }
-  .leaderboard-header-container .favorite {
-    background: #464f69;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+  border-bottom: 1px solid white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase; }
   .leaderboard-header-container .position {
     background: #464f69;
     display: flex;
@@ -238,16 +234,13 @@
   width: 100%;
   height: 30px;
   background: grey;
-  color: black;
+  color: #1e1e1e;
   display: grid;
   grid-gap: 1px;
-  grid-template-columns: 30px 40px auto 50px;
-  border-top: 1px solid grey; }
-  .player-container .favorite {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+  grid-template-columns: 60px auto 60px;
+  border-top: 1px solid grey;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; }
   .player-container .position {
     background: #eee;
     display: flex;
@@ -268,73 +261,77 @@
 .team-container {
   width: 100%;
   height: auto;
-  background: #464f69;
+  background: #e9cab4;
   padding: 10px;
   display: block;
   font-size: 0.9rem;
-  display: none; }
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; }
+  .team-container .golfer-container:nth-child(odd) {
+    background: gainsboro; }
+    .team-container .golfer-container:nth-child(odd) div {
+      background: #e6e6e6; }
   .team-container.show {
     display: block; }
   .team-container .team-header-container {
     width: 100%;
     height: auto;
-    background: red;
-    color: black;
+    background: gainsboro;
+    color: white;
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: auto 25px 25px 25px 25px 25px; }
+    grid-template-columns: auto 30px 30px 30px 30px 30px;
+    border-bottom: 1px solid gainsboro;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+    .team-container .team-header-container div {
+      background: #464f69; }
     .team-container .team-header-container .name {
-      background: #eee;
+      border-top-left-radius: 3px;
       display: flex;
       align-items: center;
       justify-content: center; }
+    .team-container .team-header-container .hole {
+      border-top-right-radius: 3px; }
   .team-container .golfer-container {
     width: 100%;
     height: auto;
-    background: red;
-    color: black;
+    background: gainsboro;
+    color: #1e1e1e;
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: auto 25px 25px 25px 25px 25px; }
+    grid-template-columns: auto 30px 30px 30px 30px 30px; }
   .team-container .team-sum-container {
     width: 100%;
     height: auto;
-    background: red;
-    color: black;
+    background: gainsboro;
+    color: white;
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: auto 25px 25px 25px 25px 25px; }
+    grid-template-columns: auto 30px 30px 30px 30px 30px;
+    border-top: 1px solid gainsboro;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+    .team-container .team-sum-container div {
+      background: #464f69; }
     .team-container .team-sum-container .name {
-      background: #eee;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      border-bottom-left-radius: 3px; }
+    .team-container .team-sum-container .hole {
+      border-bottom-right-radius: 3px; }
   .team-container .name {
     background: #eee;
     display: flex;
     align-items: center;
     justify-content: left;
-    padding-left: 5px; }
-  .team-container .round1 {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .team-container .round2 {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .team-container .round3 {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .team-container .round4 {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    padding: 5px 0px 5px 10px; }
+  .team-container .round1,
+  .team-container .round2,
+  .team-container .round3,
+  .team-container .round4,
   .team-container .hole {
     background: #eee;
     display: flex;
@@ -349,3 +346,6 @@ body {
 
 a {
   text-decoration: none; }
+
+.noSelect {
+  -webkit-tap-highlight-color: transparent; }

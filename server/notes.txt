@@ -1,6 +1,31 @@
-I can add a golfer with POST myAPI/golfer
-I can add a player with POST myAPI/player
-I can update a golfer's score for a specific tournament with PUT myAPI/golfer/:id/:tournamentName
-I can add a golfer to a player's tournament specific team with PUT /player/:id/:tournament/:golfer
-I can get all players with GET myAPI/player/
-I can get a specific player with GET myAPI/player/:id
+TODOS
+
+
+
+
+
+
+FRONT END
+___________________________________
+
+(React and Styling)
+1. Build out Rules & FAQs Components.
+2. Build out About Components.
+3. Transition Styling.
+
+(Redux)
+1. Calculate Sums for the Rounds.
+2. Calculate Totals for the Players.
+3. Sort the Players on the leaderboards.
+
+
+
+
+BACK END
+___________________________________
+
+1. Retrieve the API call and build out the Golfers (masters) with it.
+2. Input all 40 players.
+3. Add Masters golfers to the players.
+
+

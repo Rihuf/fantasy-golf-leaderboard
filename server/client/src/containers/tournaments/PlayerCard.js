@@ -15,7 +15,7 @@ export class PlayerCard extends Component {
       return <div>Loading...</div>;
     } else {
       const { player, tournament } = this.props;
-      console.log("from PlayerCard: ", player.playerId);
+      // console.log("from PlayerCard: ", player.playerId);
       return player.teams.map(index => {
         if (index.tournamentName == tournament)
           return (
@@ -31,12 +31,11 @@ export class PlayerCard extends Component {
   }
 
   render() {
-    console.log(this.props.player);
+    // console.log(this.props.player);
     const { player, tournament } = this.props;
     return (
       <React.Fragment>
         <div className="player-container" onClick={this.teamDetailedView}>
-          <div className="favorite">c</div>
           <div className="position">1</div>
           <div className="name">
             {player.firstName} {player.lastName}

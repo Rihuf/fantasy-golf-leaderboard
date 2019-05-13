@@ -6,7 +6,7 @@ export class GridPreviewPlayer extends Component {
       return <div>Loading...</div>;
     } else {
       const { teams } = this.props.player;
-      const { tournament } = this.props;
+      const { tournament, player } = this.props;
       return teams.map(index => {
         console.log("tournamentName: ", index.tournamentName);
         console.log("tournament: ", tournament);
@@ -15,7 +15,9 @@ export class GridPreviewPlayer extends Component {
           return (
             <React.Fragment>
               <div className="position">1</div>
-              <div className="player">Finally</div>
+              <div className="player">
+                {player.firstName.charAt(0)}. {player.lastName}
+              </div>
               <div className="score">4</div>
             </React.Fragment>
           );

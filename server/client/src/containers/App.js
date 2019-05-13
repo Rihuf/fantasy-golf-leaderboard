@@ -7,187 +7,13 @@ import PGAImage from "../assets/images/pga-logo.png";
 import OpenImage from "../assets/images/open-logo.png";
 import USOpenImage from "../assets/images/us-open-logo.png";
 import Tournament from "./tournaments/Tournament";
+import Rules from "../components/Rules/Rules";
+import About from "../components/About/About";
 
 export default class App extends Component {
   state = {
     showMenu: false,
-    showTournaments: false,
-    masters: {
-      tournament: "masters",
-      color: "#039b77",
-      src: MastersImage,
-      round: "Round 1",
-      leaderboard: [
-        {
-          position: 1,
-          name: "Woods",
-          score: -10,
-          thru: "18"
-        },
-        {
-          position: 2,
-          name: "Fowler",
-          score: -9,
-          thru: "17"
-        },
-        {
-          position: 3,
-          name: "Molinari",
-          score: -7,
-          thru: "18"
-        },
-        {
-          position: 4,
-          name: "Fesperman",
-          score: 2,
-          thru: "18"
-        },
-        {
-          position: 5,
-          name: "McIlroy",
-          score: 7,
-          thru: "18"
-        },
-        {
-          position: 6,
-          name: "Cink",
-          score: 9,
-          thru: "18"
-        }
-      ]
-    },
-    pga: {
-      tournament: "pga",
-      color: "#233354",
-      src: PGAImage,
-      round: "Round 1",
-      leaderboard: [
-        {
-          position: 1,
-          name: "Woods",
-          score: -10,
-          thru: "18"
-        },
-        {
-          position: 2,
-          name: "Fowler",
-          score: -9,
-          thru: "17"
-        },
-        {
-          position: 3,
-          name: "Molinari",
-          score: -7,
-          thru: "18"
-        },
-        {
-          position: 4,
-          name: "Fesperman",
-          score: 2,
-          thru: "18"
-        },
-        {
-          position: 5,
-          name: "McIlroy",
-          score: 7,
-          thru: "18"
-        },
-        {
-          position: 6,
-          name: "Cink",
-          score: 9,
-          thru: "18"
-        }
-      ]
-    },
-    usopen: {
-      tournament: "usopen",
-      color: "#003865",
-      src: USOpenImage,
-      round: "Round 1",
-      leaderboard: [
-        {
-          position: 1,
-          name: "Woods",
-          score: -10,
-          thru: "18"
-        },
-        {
-          position: 2,
-          name: "Fowler",
-          score: -9,
-          thru: "17"
-        },
-        {
-          position: 3,
-          name: "Molinari",
-          score: -7,
-          thru: "18"
-        },
-        {
-          position: 4,
-          name: "Fesperman",
-          score: 2,
-          thru: "18"
-        },
-        {
-          position: 5,
-          name: "McIlroy",
-          score: 7,
-          thru: "18"
-        },
-        {
-          position: 6,
-          name: "Cink",
-          score: 9,
-          thru: "18"
-        }
-      ]
-    },
-    open: {
-      tournament: "open",
-      color: "#191b3c",
-      src: OpenImage,
-      round: "Round 1",
-      leaderboard: [
-        {
-          position: 1,
-          name: "Woods",
-          score: -10,
-          thru: "18"
-        },
-        {
-          position: 2,
-          name: "Fowler",
-          score: -9,
-          thru: "17"
-        },
-        {
-          position: 3,
-          name: "Molinari",
-          score: -7,
-          thru: "18"
-        },
-        {
-          position: 4,
-          name: "Fesperman",
-          score: 2,
-          thru: "18"
-        },
-        {
-          position: 5,
-          name: "McIlroy",
-          score: 7,
-          thru: "18"
-        },
-        {
-          position: 6,
-          name: "Cink",
-          score: 9,
-          thru: "18"
-        }
-      ]
-    }
+    showTournaments: false
   };
 
   hamburgerClick = e => {
@@ -226,23 +52,15 @@ export default class App extends Component {
         />
         <Switch>
           <Route exact path="/" render={() => <Redirect to="/home" />} />
-          <Route
-            exact
-            path="/home"
-            render={() => <Home appState={this.state} />}
-          />
+          <Route exact path="/home" render={() => <Home />} />
+          <Route exact path="/rules" render={() => <Rules />} />
+          <Route exact path="/about" render={() => <About />} />
           <Route
             path="/:tournament"
             render={props => (
               <Tournament {...props} tournament={this.state.masters} />
             )}
           />
-          {/* <Route
-            exact
-            path="/tournament"
-            render={() => <Tournament appState={this.state} />}
-          /> */}
-          {/* <Route exact path="/deals" render={() => <Deals />} /> */}
         </Switch>
       </BrowserRouter>
     );

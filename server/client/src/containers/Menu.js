@@ -7,8 +7,8 @@ export class Menu extends Component {
     return (
       <div className={`menu ${isMenuActive ? "show-menu" : ""}`}>
         <ul className="menu-nav">
-          <li className="nav-item">
-            <a href="/" className="nav-link">
+          <li className="nav-item noSelect">
+            <a href="/" className="nav-link noSelect">
               HOME
             </a>
           </li>
@@ -24,35 +24,35 @@ export class Menu extends Component {
           >
             <ul className="tournaments-nav">
               <li className="tournaments-nav-item masters-nav">
-                <a href="/masters" className="tournament-nav-link">
+                <a href="/masters" className="tournament-nav-link noSelect">
                   MASTERS
                 </a>
               </li>
               <li className="tournaments-nav-item pga-nav">
-                <a href="/pga" className="tournament-nav-link">
+                <a href="/pga" className="tournament-nav-link noSelect">
                   PGA CHAMPIONSHIP
                 </a>
               </li>
 
               <li className="tournaments-nav-item usopen-nav">
-                <a href="/usopen" className="tournament-nav-link">
+                <a href="/usopen" className="tournament-nav-link noSelect">
                   U.S. OPEN
                 </a>
               </li>
               <li className="tournaments-nav-item open-nav">
-                <a href="/open" className="tournament-nav-link">
+                <a href="/open" className="tournament-nav-link noSelect">
                   THE OPEN
                 </a>
               </li>
             </ul>
           </div>
           <li className="nav-item">
-            <a href="/" className="nav-link">
+            <a href="/" className="nav-link noSelect">
               RULES & FAQ
             </a>
           </li>
           <li className="nav-item">
-            <a href="/" className="nav-link">
+            <a href="/" className="nav-link noSelect">
               ABOUT
             </a>
           </li>

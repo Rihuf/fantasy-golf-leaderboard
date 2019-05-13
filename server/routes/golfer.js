@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const axios = require("axios");
 const { check, validationResult } = require("express-validator/check");
 
 //Bring in the golfer model
@@ -75,11 +76,7 @@ route:         PUT /golfer/:id/:tournament
 description:   Edit a golfer's scores according to tournament name
 **********************************************************/
 router.put("/:id/tournament/:tournamentName", async (request, response) => {
-  const errors = validationResult(request);
   //if errors is not empty, send a 400 reponse with the error description
-  if (!errors.isEmpty()) {
-    return response.status(400).json({ errors: errors.array() });
-  }
   const golfer = await Golfer.findById(request.params.id);
   const tournamentName = request.params.tournamentName;
 
@@ -92,5 +89,29 @@ router.put("/:id/tournament/:tournamentName", async (request, response) => {
     response.status(500).send("Server Error (from player.js)");
   }
 });
+
+// router.get("/get_masters_data", async (request, response, next) => {
+//   axios
+//     .get("https://statdata.pgatour.com/r/014/leaderboard-v2mini.json")
+//     .then(res => {
+//       console.log(res.data.leaderboard.players);
+//       const players = res.data.leaderboard.players;
+//       response.send(res.data.leaderboard);
+
+//       try {
+//         players.map(index => {
+//           let golfer = Golfer.findOne({
+//             golferId: index.player_id
+//           });
+//         });
+//       } catch (error) {
+//         console.error(error.message);
+//         response.status(500).send("Server Error (from player.js)");
+//       }
+//     })
+//     .catch(error => {
+//       console.log(error);
+//     });
+// });
 
 module.exports = router;

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class GolferCard extends Component {
   render() {
     const { golfer, scores } = this.props;
-    console.log("from GolferCard round1: ", scores);
+    // console.log("from GolferCard round1: ", scores);
     return (
       <React.Fragment>
         <div className="golfer-container">

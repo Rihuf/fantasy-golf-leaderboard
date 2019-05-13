@@ -1,27 +1,31 @@
 .tournament-header-container {
-  position: relative;
+  // position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
   background: pink;
   width: 100%;
   height: 80px;
   overflow: hidden;
 
   img {
-    position: absolute;
+    // position: absolute;
     filter: grayscale(100%);
-    top: -80px;
-    left: -10px;
+    top: 20px;
+    left: 100px;
   }
 }
 
-.tournament-header-text {
-  position: absolute;
-  bottom: -13px;
-  right: 10px;
-  color: white;
-  font-family: $primary-font;
-  text-transform: lowercase;
-  font-size: 3rem;
-}
+// .tournament-header-text {
+//   position: absolute;
+//   bottom: -13px;
+//   right: 10px;
+//   color: white;
+//   font-family: $primary-font;
+//   text-transform: lowercase;
+//   font-size: 3rem;
+// }
 
 .leaderboard-header-container {
   position: sticky;
@@ -32,16 +36,19 @@
   color: white;
   display: grid;
   grid-gap: 1px;
-  grid-template-columns: 30px 40px auto 50px;
+  grid-template-columns: 60px auto 60px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
 
-  .favorite {
-    background: $primary-color;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  // .favorite {
+  //   background: $primary-color;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  // }
   .position {
     background: $primary-color;
     display: flex;
@@ -67,18 +74,20 @@
   width: 100%;
   height: 30px;
   background: grey;
-  color: black;
+  color: rgb(30, 30, 30);
   display: grid;
   grid-gap: 1px;
-  grid-template-columns: 30px 40px auto 50px;
+  grid-template-columns: 60px auto 60px;
   border-top: 1px solid grey;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 
-  .favorite {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  // .favorite {
+  //   background: #eee;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  // }
   .position {
     background: #eee;
     display: flex;
@@ -103,11 +112,21 @@
 .team-container {
   width: 100%;
   height: auto;
-  background: $primary-color;
+  background: $secondary-color;
   padding: 10px;
   display: block;
   font-size: 0.9rem;
   display: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+
+  .golfer-container:nth-child(odd) {
+    background: rgb(220, 220, 220);
+
+    div {
+      background: rgb(230, 230, 230);
+    }
+  }
 
   &.show {
     display: block;
@@ -116,44 +135,66 @@
   .team-header-container {
     width: 100%;
     height: auto;
-    background: red;
-    color: black;
+    background: rgb(220, 220, 220);
+    color: white;
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: auto 25px 25px 25px 25px 25px;
+    grid-template-columns: auto 30px 30px 30px 30px 30px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+    div {
+      background: $primary-color;
+    }
 
     .name {
-      background: #eee;
+      border-top-left-radius: 3px;
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+
+    .hole {
+      border-top-right-radius: 3px;
     }
   }
 
   .golfer-container {
     width: 100%;
     height: auto;
-    background: red;
-    color: black;
+    background: rgb(220, 220, 220);
+    color: rgb(30, 30, 30);
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: auto 25px 25px 25px 25px 25px;
+    grid-template-columns: auto 30px 30px 30px 30px 30px;
   }
 
   .team-sum-container {
     width: 100%;
     height: auto;
-    background: red;
-    color: black;
+    background: rgb(220, 220, 220);
+    color: white;
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: auto 25px 25px 25px 25px 25px;
+    grid-template-columns: auto 30px 30px 30px 30px 30px;
+    border-top: 1px solid rgb(220, 220, 220);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+    div {
+      background: $primary-color;
+    }
 
     .name {
-      background: #eee;
       display: flex;
       align-items: center;
       justify-content: center;
+      border-bottom-left-radius: 3px;
+    }
+
+    .hole {
+      border-bottom-right-radius: 3px;
     }
   }
 
@@ -162,41 +203,45 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    padding-left: 5px;
+    padding: 5px 0px 5px 10px;
   }
 
-  .round1 {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .round2 {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .round3 {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .round4 {
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
+  .round1,
+  .round2,
+  .round3,
+  .round4,
   .hole {
     background: #eee;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
+  //   .round2 {
+  //     background: #eee;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //   }
+
+  //   .round3 {
+  //     background: #eee;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //   }
+
+  //   .round4 {
+  //     background: #eee;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //   }
+
+  //   .hole {
+  //     background: #eee;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //   }
 }

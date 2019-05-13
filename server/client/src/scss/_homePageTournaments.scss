@@ -24,20 +24,21 @@
   align-items: center;
   justify-content: center;
   float: left;
-  width: 40%;
+  width: 50%;
   height: 100%;
-  // background: pink;
 }
 
 .home-page-tournament-leaderboard {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 60%;
+  justify-content: left;
+  width: 50%;
   height: 100%;
+  font-family: "Roboto", sans-serif;
 
   .grid {
-    width: 80%;
+    text-decoration: none;
+    width: 90%;
     height: 80%;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -83,4 +84,8 @@
       justify-content: center;
     }
   }
+}
+
+a {
+  color: rgb(30, 30, 30);
 }

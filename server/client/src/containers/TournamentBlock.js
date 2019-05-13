@@ -13,7 +13,7 @@ export class HomePageTournamentBlock extends Component {
         }}
       >
         <div className="home-page-tournament-branding">
-          <img src={tournament.src} height="100" />
+          <img src={tournament.src} height="95" />
         </div>
         <TournamentGridPreview tournament={tournament} />
       </div>

@@ -23,7 +23,6 @@ export class Tournament extends Component {
       <React.Fragment>
         {this.renderHeader()}
         <div className="leaderboard-header-container">
-          <div className="favorite">c</div>
           <div className="position">Pos</div>
           <div className="name">Player</div>
           <div className="score">Total</div>
