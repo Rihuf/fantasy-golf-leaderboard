@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import { setScores } from "../../actions/setScores";
 import GolferCard from "./GolferCard";
 import TeamSums from "./TeamSums";
 
@@ -9,6 +12,12 @@ export class TeamCard extends Component {
 
   componentDidMount() {
     this.calculateAndSort();
+  }
+
+  componentDidUpdate() {
+    if (this.state.playerCurrentTotal) {
+      this.props.setScores(this.state.playerCurrentTotal, this.props.playerId);
+    }
   }
 
   calculateAndSort = async () => {
@@ -146,6 +155,17 @@ export class TeamCard extends Component {
         this.setState(prevState => ({ ...prevState, reducedR4 }));
       });
 
+      this.setState({ scoreTotals: scoreSum }, () => {
+        this.setState(prevState => ({
+          ...prevState,
+          playerCurrentTotal:
+            this.state.reducedR1 +
+            this.state.reducedR2 +
+            this.state.reducedR3 +
+            this.state.reducedR4
+        }));
+      });
+
       // console.log("This is the STATE After the SORT, SPLICE, and TOTAL");
       console.log(
         "This is the STATE After the SORT, SPLICE, and TOTAL: ",
@@ -218,10 +238,19 @@ export class TeamCard extends Component {
           <div className="hole">H</div>
         </div>
         {this.renderGolferCard()}
-        <TeamSums />
+        <TeamSums scores={this.state} />
       </div>
     );
   }
 }
 
-export default TeamCard;
+const mapDispatchToProps = dispatch => {
+  return bindActionCreators({ setScores }, dispatch);
+};
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(TeamCard);
+
+// export default TeamCard;

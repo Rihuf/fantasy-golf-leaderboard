@@ -57,9 +57,7 @@ export default class App extends Component {
           <Route exact path="/about" render={() => <About />} />
           <Route
             path="/:tournament"
-            render={props => (
-              <Tournament {...props} tournament={this.state.masters} />
-            )}
+            render={props => <Tournament {...props} />}
           />
         </Switch>
       </BrowserRouter>

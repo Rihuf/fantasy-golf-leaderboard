@@ -24,6 +24,7 @@ export class PlayerCard extends Component {
               team={index.roster}
               tournament={tournament}
               key={player.playerId}
+              playerId={player.playerId}
             />
           );
       });

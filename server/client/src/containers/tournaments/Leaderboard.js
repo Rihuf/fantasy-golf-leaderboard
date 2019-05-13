@@ -7,41 +7,42 @@ import PlayerCard from "./PlayerCard";
 export class Leaderboard extends Component {
   //on page load, go get the players
   componentDidMount() {
-    this.props.getPlayers(6);
+    this.props.getPlayers();
+  }
+
+  componentDidUpdate() {
+    console.log("FROM LEADERBOARD: ", this.props);
   }
 
   renderLeaderboard() {
     if (this.props.players.length === 0) {
       return <div>Loading...</div>;
     } else {
-      const { players, tournament } = this.props;
-      // console.log("params", players[0].playerId);
+      const { players, tournament, scores } = this.props;
+      console.log("params", scores);
+      console.log("tournament: ", tournament);
+      console.log("players", players);
       return players.map(index => {
         return (
           <PlayerCard
             player={index}
             tournament={tournament}
             key={index.playerId}
+            // position={xxxxx}
+            // score={yyyyyy}
           />
         );
       });
     }
   }
 
-  renderPlayers = () => {
-    let array = [];
-    for (let i = 0; i < 40; i++) {
-      array.push(<PlayerCard key={i} />);
-    }
-    return array;
-  };
   render() {
     return <React.Fragment>{this.renderLeaderboard()}</React.Fragment>;
   }
 }
 
 const mapStateToProps = state => {
-  return { players: state.players };
+  return { players: state.players, scores: state.scores };
 };
 
 const mapDispatchToProps = dispatch => {

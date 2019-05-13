@@ -16,7 +16,7 @@ export class TournamentGridPreview extends Component {
     } else {
       const { tournament } = this.props.tournament;
       const { players } = this.props;
-      console.log(this.props);
+      // console.log(this.props);
       return players.map(index => {
         return <GridPreviewPlayer player={index} tournament={tournament} />;
       });

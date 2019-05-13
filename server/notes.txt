@@ -1,10 +1,3 @@
-TODOS
-
-
-
-
-
-
 FRONT END
 ___________________________________
 
@@ -14,9 +7,10 @@ ___________________________________
 3. Transition Styling.
 
 (Redux)
-1. Calculate Sums for the Rounds.
-2. Calculate Totals for the Players.
-3. Sort the Players on the leaderboards.
+1. Calculate Sums for the Rounds.         XXXXXXXXXXXXXX
+2. Calculate Totals for the Players.      XXXXXXXXXXXXXX
+3. Get player total to parent component
+4. Sort the Players on the leaderboards.
 
 
 
