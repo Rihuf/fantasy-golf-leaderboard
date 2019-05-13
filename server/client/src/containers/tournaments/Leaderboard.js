@@ -10,26 +10,33 @@ export class Leaderboard extends Component {
     this.props.getPlayers();
   }
 
-  componentDidUpdate() {
-    console.log("FROM LEADERBOARD: ", this.props);
-  }
-
   renderLeaderboard() {
     if (this.props.players.length === 0) {
       return <div>Loading...</div>;
     } else {
-      const { players, tournament, scores } = this.props;
-      console.log("params", scores);
-      console.log("tournament: ", tournament);
-      console.log("players", players);
-      return players.map(index => {
+      const { players, tournament } = this.props;
+      console.log(players);
+
+      //sum the player's scores for this tournament
+      players.forEach(player => {
+        let sum = player.scores[tournament].reduce(
+          (accumulator, currentValue) => accumulator + currentValue
+        );
+        player.scores[tournament] = sum;
+      });
+
+      //sort the players according to their scores for this tournament
+
+      players.sort((a, b) => a.scores[tournament] - b.scores[tournament]);
+      console.log(players);
+
+      return players.map((p, index) => {
         return (
           <PlayerCard
-            player={index}
+            player={p}
             tournament={tournament}
-            key={index.playerId}
-            // position={xxxxx}
-            // score={yyyyyy}
+            key={p.playerId}
+            position={index + 1}
           />
         );
       });
@@ -42,7 +49,7 @@ export class Leaderboard extends Component {
 }
 
 const mapStateToProps = state => {
-  return { players: state.players, scores: state.scores };
+  return { players: state.players };
 };
 
 const mapDispatchToProps = dispatch => {

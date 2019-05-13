@@ -3,7 +3,6 @@ import React, { Component } from "react";
 export class TournamentHeader extends Component {
   render() {
     const { tournament } = this.props;
-    console.log("from tournamentHeader: ", tournament);
     return (
       <React.Fragment>
         <div

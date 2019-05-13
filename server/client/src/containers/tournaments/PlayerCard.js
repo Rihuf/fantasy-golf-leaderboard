@@ -24,24 +24,36 @@ export class PlayerCard extends Component {
               team={index.roster}
               tournament={tournament}
               key={player.playerId}
-              playerId={player.playerId}
+              player={player}
             />
           );
       });
     }
   }
 
+  renderScores(round) {
+    if (this.props.player.teams.length === 0) {
+      return <div>Loading...</div>;
+    } else {
+      if (round == 0) {
+        return "E";
+      } else return round;
+    }
+  }
+
   render() {
     // console.log(this.props.player);
-    const { player, tournament } = this.props;
+    const { player, position, tournament } = this.props;
     return (
       <React.Fragment>
         <div className="player-container" onClick={this.teamDetailedView}>
-          <div className="position">1</div>
+          <div className="position">{position}</div>
           <div className="name">
             {player.firstName} {player.lastName}
           </div>
-          <div className="score">-37</div>
+          <div className="score">
+            {this.renderScores(player.scores[tournament])}
+          </div>
         </div>
         {this.renderTeam()}
       </React.Fragment>
