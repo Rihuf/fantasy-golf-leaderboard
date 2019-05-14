@@ -12,7 +12,6 @@ export class HomePageTournaments extends Component {
       const { assets } = this.props;
       return assets.map(index => {
         const link = `/${index.tournament}`;
-        console.log(index);
         return (
           <a href={link} className="homepage-tournament-links noSelect">
             <HomePageTournamentBlock tournament={index} />
