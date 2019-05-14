@@ -4,8 +4,9 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 5000;
+const keys = require("./config/keys");
 
-mongoose.connect("mongodb://localhost/TSO", { useNewUrlParser: true });
+mongoose.connect(keys.MONGODB_URI, { useNewUrlParser: true });
 
 app.use(cors());
 
