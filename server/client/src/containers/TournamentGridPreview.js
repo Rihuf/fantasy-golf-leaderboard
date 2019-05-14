@@ -12,7 +12,7 @@ export class TournamentGridPreview extends Component {
 
   renderLeaderboardPreview() {
     if (this.props.players.length === 0) {
-      return <div />;
+      return null;
     } else {
       const { players } = this.props;
       const { tournament } = this.props.tournament;
