@@ -14,11 +14,27 @@ export default function About() {
           The game revolves around each player choosing 10 professional golfers
           to fill out their team for each of the four annual majors. <br />
           <br />
-          Head over to the{" "}
+          <br />
+          <span className="rules-break">rules</span>
+          <br />
+          <br />
+          For each major, the top 50 golfers in the world ranking will be
+          seperated by their rank into 5 tiers of 10 golfers. <br />
+          <br />
+          Players must submit 2 golfers from each tier prior to the first tee
+          time of the relative major. A player may choose to write in any golfer
+          absent from the top 50. <br />
+          <br />
+          The sum of the 4 lowest scores of a player's 10 golfers will be that
+          player's score for the round.
+          <br />
+          <br />
+          Lowest 4 round total wins.
+          {/* Head over to the{" "}
           <a href="/rules" className="about-rules-link">
             Rules and FAQ{" "}
           </a>{" "}
-          page to learn more.
+          page to learn more. */}
         </div>
       </div>
     </React.Fragment>

@@ -46,11 +46,11 @@ export class Menu extends Component {
               </li>
             </ul>
           </div>
-          <li className="nav-item">
-            <a href="/" className="nav-link noSelect">
+          {/* <li className="nav-item">
+            <a href="/rules" className="nav-link noSelect">
               RULES & FAQ
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a href="/about" className="nav-link noSelect">
               ABOUT
