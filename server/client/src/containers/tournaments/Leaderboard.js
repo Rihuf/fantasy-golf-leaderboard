@@ -17,17 +17,19 @@ export class Leaderboard extends Component {
       const { players, tournament } = this.props;
       console.log(players);
 
-      //sum the player's scores for this tournament
+      //sum the player's scoresByRound for this tournament
       players.forEach(player => {
-        let sum = player.scores[tournament].reduce(
+        let sum = player.scoresByRound[tournament].reduce(
           (accumulator, currentValue) => accumulator + currentValue
         );
-        player.scores[tournament] = sum;
+        player.scoreTotals[tournament] = sum;
       });
 
-      //sort the players according to their scores for this tournament
+      //sort the players according to their scoresByRound for this tournament
 
-      players.sort((a, b) => a.scores[tournament] - b.scores[tournament]);
+      players.sort(
+        (a, b) => a.scoresByRound[tournament] - b.scoresByRound[tournament]
+      );
       console.log(players);
 
       return players.map((p, index) => {

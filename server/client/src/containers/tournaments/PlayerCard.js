@@ -52,7 +52,7 @@ export class PlayerCard extends Component {
             {player.firstName} {player.lastName}
           </div>
           <div className="score">
-            {this.renderScores(player.scores[tournament])}
+            {this.renderScores(player.scoreTotals[tournament])}
           </div>
         </div>
         {this.renderTeam()}

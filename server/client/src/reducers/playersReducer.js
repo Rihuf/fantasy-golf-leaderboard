@@ -75,13 +75,19 @@ export default function(state = [], action) {
 
       // For each player in response get total score for all golfers in each tournament
       let playerScoresForAllTournaments = action.payload.data.map(player => {
-        player.scores.masters = getScoreForPlayerInTournament(
+        player.scoresByRound.masters = getScoreForPlayerInTournament(
           player,
           "masters"
         );
-        player.scores.open = getScoreForPlayerInTournament(player, "open");
-        player.scores.pga = getScoreForPlayerInTournament(player, "pga");
-        player.scores.usopen = getScoreForPlayerInTournament(player, "usopen");
+        player.scoresByRound.open = getScoreForPlayerInTournament(
+          player,
+          "open"
+        );
+        player.scoresByRound.pga = getScoreForPlayerInTournament(player, "pga");
+        player.scoresByRound.usopen = getScoreForPlayerInTournament(
+          player,
+          "usopen"
+        );
         return player;
       });
 

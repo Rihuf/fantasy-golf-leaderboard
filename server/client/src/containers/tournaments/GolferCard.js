@@ -12,7 +12,7 @@ export class GolferCard extends Component {
   }
 
   render() {
-    const { golfer, scores } = this.props;
+    const { golfer, scores, tournament } = this.props;
     // console.log("from GolferCard round1: ", scores);
     return (
       <React.Fragment>
@@ -24,7 +24,7 @@ export class GolferCard extends Component {
           <div className="round2">{this.renderScores(scores.round2)}</div>
           <div className="round3">{this.renderScores(scores.round3)}</div>
           <div className="round4">{this.renderScores(scores.round4)}</div>
-          <div className="hole">{scores.hole}</div>
+          <div className="hole">{golfer.tournaments[tournament].thru}</div>
         </div>
       </React.Fragment>
     );
