@@ -15,22 +15,23 @@ export class Leaderboard extends Component {
       return <div>Loading...</div>;
     } else {
       const { players, tournament } = this.props;
-      console.log(players);
 
       //sum the player's scoresByRound for this tournament
       players.forEach(player => {
-        let sum = player.scoresByRound[tournament].reduce(
-          (accumulator, currentValue) => accumulator + currentValue
-        );
-        player.scoreTotals[tournament] = sum;
+        if (player.scoresByRound[tournament].length > 0) {
+          let sum = player.scoresByRound[tournament].reduce(
+            (accumulator, currentValue) => accumulator + currentValue
+          );
+          player.scoreTotals[tournament] = sum;
+        }
       });
 
       //sort the players according to their scoresByRound for this tournament
 
       players.sort(
-        (a, b) => a.scoresByRound[tournament] - b.scoresByRound[tournament]
+        (a, b) => a.scoreTotals[tournament] - b.scoreTotals[tournament]
       );
-      console.log(players);
+      console.log("are the players sorted? ", players);
 
       return players.map((p, index) => {
         return (

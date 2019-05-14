@@ -6,19 +6,25 @@ export class GridPreviewPlayer extends Component {
       return <div>Loading...</div>;
     } else {
       const { teams } = this.props.player;
-      const { tournament, player } = this.props;
+      const { tournament, player, position } = this.props;
+
+      const zeroToEven = round => {
+        if (round === 0) {
+          return "E";
+        } else return round;
+      };
+
       return teams.map(index => {
-        // console.log("tournamentName: ", index.tournamentName);
-        // console.log("tournament: ", tournament);
         if (index.tournamentName === tournament) {
-          // console.log("hello");
           return (
             <React.Fragment>
-              <div className="position">1</div>
+              <div className="position">{position}</div>
               <div className="player">
                 {player.firstName.charAt(0)}. {player.lastName}
               </div>
-              <div className="score">4</div>
+              <div className="score">
+                {zeroToEven(player.scoreTotals[tournament])}
+              </div>
             </React.Fragment>
           );
         }
@@ -27,14 +33,7 @@ export class GridPreviewPlayer extends Component {
   }
 
   render() {
-    return (
-      <React.Fragment>
-        {this.renderPlayer()}
-        {/* //   <div className="position">{player.position}</div>
-      //   <div className="player">{player.name}</div>
-      //   <div className="score">{player.score}</div> */}{" "}
-      </React.Fragment>
-    );
+    return <React.Fragment>{this.renderPlayer()}</React.Fragment>;
   }
 }
 

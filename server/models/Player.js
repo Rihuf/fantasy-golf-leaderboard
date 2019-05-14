@@ -15,6 +15,18 @@ const playerSchema = new Schema({
     type: String,
     require: true
   },
+  scoresByRound: {
+    masters: Array,
+    open: Array,
+    pga: Array,
+    usopen: Array
+  },
+  scoreTotals: {
+    masters: Array,
+    open: Array,
+    pga: Array,
+    usopen: Array
+  },
   teams: [
     {
       tournamentName: String,

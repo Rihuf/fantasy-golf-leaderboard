@@ -7,22 +7,30 @@ const initialState = [
   {
     tournament: "masters",
     color: "#039b77",
-    src: MastersImage
+    src: MastersImage,
+    dateStart: "April 11, 2019",
+    dateEnd: "April 14, 2019"
   },
   {
     tournament: "pga",
     color: "#233354",
-    src: PGAImage
+    src: PGAImage,
+    dateStart: "May 16, 2019",
+    dateEnd: "May 19, 2019"
   },
   {
     tournament: "usopen",
     color: "#003865",
-    src: USOpenImage
+    src: USOpenImage,
+    dateStart: "June 13, 2019",
+    dateEnd: "June 16, 2019"
   },
   {
     tournament: "open",
     color: "#191b3c",
-    src: OpenImage
+    src: OpenImage,
+    dateStart: "July 18, 2019",
+    dateEnd: "July 21, 2019"
   }
 ];
 

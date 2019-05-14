@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
-import Home from "./Home";
+import HomePageTournaments from "./HomePageTournaments";
 import Navbar from "./Navbar";
-import MastersImage from "../assets/images/masters-logo.png";
-import PGAImage from "../assets/images/pga-logo.png";
-import OpenImage from "../assets/images/open-logo.png";
-import USOpenImage from "../assets/images/us-open-logo.png";
 import Tournament from "./tournaments/Tournament";
 import Rules from "../components/Rules/Rules";
 import About from "../components/About/About";
@@ -52,7 +48,7 @@ export default class App extends Component {
         />
         <Switch>
           <Route exact path="/" render={() => <Redirect to="/home" />} />
-          <Route exact path="/home" render={() => <Home />} />
+          <Route exact path="/home" render={() => <HomePageTournaments />} />
           <Route exact path="/rules" render={() => <Rules />} />
           <Route exact path="/about" render={() => <About />} />
           <Route

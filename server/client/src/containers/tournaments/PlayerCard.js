@@ -35,7 +35,7 @@ export class PlayerCard extends Component {
     if (this.props.player.teams.length === 0) {
       return <div>Loading...</div>;
     } else {
-      if (round == 0) {
+      if (round === 0) {
         return "E";
       } else return round;
     }

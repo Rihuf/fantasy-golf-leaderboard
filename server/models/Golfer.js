@@ -8,12 +8,10 @@ const golferSchema = new Schema({
     require: true
   },
   firstName: {
-    type: String,
-    require: true
+    type: String
   },
   lastName: {
-    type: String,
-    require: true
+    type: String
   },
   tournaments: {
     masters: {

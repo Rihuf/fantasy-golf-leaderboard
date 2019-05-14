@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   float: left;
-  width: 50%;
+  width: 40%;
   height: 100%;
 }
 
@@ -32,7 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  width: 50%;
+  width: 60%;
   height: 100%;
   font-family: "Roboto", sans-serif;
 
@@ -46,6 +46,7 @@
     text-align: center;
     grid-gap: 1px;
     background: rgb(231, 231, 231);
+    font-size: 0.9rem;
 
     :nth-child(6n + 1) {
       background: #fff;
@@ -84,6 +85,20 @@
       justify-content: center;
     }
   }
+}
+
+.dates {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 500;
+  opacity: 0.2;
 }
 
 a {

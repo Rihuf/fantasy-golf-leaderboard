@@ -65,7 +65,15 @@ router.post(
       return response.status(400).json({ errors: errors.array() });
     }
 
-    const { playerId, firstName, lastName, teams, date_updated } = request.body;
+    const {
+      playerId,
+      firstName,
+      lastName,
+      teams,
+      scoresByRound,
+      scoreTotals,
+      date_updated
+    } = request.body;
 
     try {
       let player = await Player.findOne({ playerId });
@@ -81,6 +89,8 @@ router.post(
           playerId,
           firstName,
           lastName,
+          scoresByRound,
+          scoreTotals,
           teams,
           date_updated
         });

@@ -12,19 +12,38 @@ export default function(state = [], action) {
       ) => {
         if (golfer.tournaments[tournament].current_round == round) {
           const roundFormattedToIncomingData = "round" + round;
-          golfer.tournaments[tournament].scores[
-            roundFormattedToIncomingData
-          ] = parseInt(golfer.tournaments[tournament].today);
-          return parseInt(golfer.tournaments[tournament].today);
+
+          if (
+            golfer.tournaments[tournament].scores[
+              roundFormattedToIncomingData
+            ] === null
+          ) {
+            golfer.tournaments[tournament].today = 100;
+          } else {
+            golfer.tournaments[tournament].scores[
+              roundFormattedToIncomingData
+            ] = parseInt(golfer.tournaments[tournament].today);
+
+            return parseInt(golfer.tournaments[tournament].today);
+          }
         } else {
           const roundFormattedToIncomingData = "round" + round;
+          let scoreForSpecificRound = null;
 
-          const scoreForSpecificRound =
-            parseInt(
-              golfer.tournaments[tournament].scores[
-                roundFormattedToIncomingData
-              ]
-            ) - 72;
+          if (
+            golfer.tournaments[tournament].scores[
+              roundFormattedToIncomingData
+            ] === null
+          ) {
+            scoreForSpecificRound = 100;
+          } else {
+            scoreForSpecificRound =
+              parseInt(
+                golfer.tournaments[tournament].scores[
+                  roundFormattedToIncomingData
+                ]
+              ) - 72;
+          }
 
           golfer.tournaments[tournament].scores[
             roundFormattedToIncomingData

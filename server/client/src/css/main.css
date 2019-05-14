@@ -135,14 +135,14 @@
   align-items: center;
   justify-content: center;
   float: left;
-  width: 50%;
+  width: 40%;
   height: 100%; }
 
 .home-page-tournament-leaderboard {
   display: flex;
   align-items: center;
   justify-content: left;
-  width: 50%;
+  width: 60%;
   height: 100%;
   font-family: "Roboto", sans-serif; }
   .home-page-tournament-leaderboard .grid {
@@ -154,7 +154,8 @@
     background: white;
     text-align: center;
     grid-gap: 1px;
-    background: #e7e7e7; }
+    background: #e7e7e7;
+    font-size: 0.9rem; }
     .home-page-tournament-leaderboard .grid :nth-child(6n + 1) {
       background: #fff; }
     .home-page-tournament-leaderboard .grid :nth-child(6n + 2) {
@@ -180,6 +181,19 @@
       display: flex;
       align-items: center;
       justify-content: center; }
+
+.dates {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 500;
+  opacity: 0.2; }
 
 a {
   color: #1e1e1e; }
@@ -342,7 +356,8 @@ a {
   box-sizing: border-box; }
 
 body {
-  margin: 56px 0 0 0; }
+  margin: 56px 0 0 0;
+  background: #464f69; }
 
 a {
   text-decoration: none; }
