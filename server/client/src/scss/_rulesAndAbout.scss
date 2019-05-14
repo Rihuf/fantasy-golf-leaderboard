@@ -1,0 +1,30 @@
+.about-header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: $secondary-color;
+  color: $primary-color;
+  font-family: $primary-font;
+
+  .about-header-text {
+    position: absolute;
+    bottom: -12px;
+    right: 20px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+}
+
+.about-body-container {
+  font-size: 1.2rem;
+  font-family: $primary-font;
+  color: $secondary-color;
+  padding: 40px 25px 0 25px;
+  text-align: center;
+
+  .about-body-text {
+    .about-rules-link {
+      color: white;
+    }
+  }
+}

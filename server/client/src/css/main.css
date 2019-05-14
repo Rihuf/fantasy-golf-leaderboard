@@ -86,7 +86,7 @@
 .tournaments-nav-container {
   height: 0;
   width: 100%;
-  background: #464f69;
+  background: #e9cab4;
   overflow: hidden;
   display: flex;
   flex-flow: column;
@@ -103,7 +103,7 @@
   line-height: 1.3; }
 
 .tournament-nav-link {
-  color: #838dac;
+  color: #464f69;
   display: block;
   width: 100%; }
 
@@ -351,6 +351,29 @@ a {
     display: flex;
     align-items: center;
     justify-content: center; }
+
+.about-header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: #e9cab4;
+  color: #464f69;
+  font-family: "Roboto", serif; }
+  .about-header .about-header-text {
+    position: absolute;
+    bottom: -12px;
+    right: 20px;
+    font-size: 2.5rem;
+    text-transform: uppercase; }
+
+.about-body-container {
+  font-size: 1.2rem;
+  font-family: "Roboto", serif;
+  color: #e9cab4;
+  padding: 40px 25px 0 25px;
+  text-align: center; }
+  .about-body-container .about-body-text .about-rules-link {
+    color: white; }
 
 * {
   box-sizing: border-box; }
