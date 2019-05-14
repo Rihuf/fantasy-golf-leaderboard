@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 
 mongoose.connect("mongodb://localhost/TSO", { useNewUrlParser: true });
 
@@ -19,5 +19,5 @@ app.use("/player", playerRoutes);
 app.use("/golfer", golferRoutes);
 
 app.listen(PORT, () => {
-  console.log("Node.js listening on port " + 8000);
+  console.log("Node.js listening on process.env.PORT or port " + 5000);
 });
