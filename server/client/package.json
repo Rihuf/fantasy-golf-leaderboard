@@ -21,6 +21,7 @@
     "eject": "react-scripts eject",
     "sass": "node-sass -w src/scss/ -o src/css/ --recursive"
   },
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": "react-app"
   },
