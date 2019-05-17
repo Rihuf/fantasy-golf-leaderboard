@@ -22,10 +22,10 @@ const playerSchema = new Schema({
     usopen: Array
   },
   scoreTotals: {
-    masters: Array,
-    open: Array,
-    pga: Array,
-    usopen: Array
+    masters: Number,
+    open: Number,
+    pga: Number,
+    usopen: Number
   },
   teams: [
     {

@@ -15,6 +15,7 @@ const golferSchema = new Schema({
   },
   tournaments: {
     masters: {
+      status: String,
       today: String,
       thru: String,
       current_round: String,
@@ -26,6 +27,7 @@ const golferSchema = new Schema({
       }
     },
     pga: {
+      status: String,
       today: String,
       thru: String,
       current_round: String,
@@ -37,6 +39,7 @@ const golferSchema = new Schema({
       }
     },
     usopen: {
+      status: String,
       today: String,
       thru: String,
       current_round: String,
@@ -48,6 +51,7 @@ const golferSchema = new Schema({
       }
     },
     open: {
+      status: String,
       today: String,
       thru: String,
       current_round: String,

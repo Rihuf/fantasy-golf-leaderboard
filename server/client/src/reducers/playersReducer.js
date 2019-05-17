@@ -8,51 +8,110 @@ export default function(state = [], action) {
       let getScoreForGolferInRoundInTournament = (
         golfer,
         round,
-        tournament
+        tournament,
+        par
       ) => {
-        if (golfer.tournaments[tournament].current_round == round) {
-          const roundFormattedToIncomingData = "round" + round;
+        /***********************************************************
+         * IF if player is active, and not cut
+         * ELSE if play has been cut
+         ***********************************************************/
+        if (golfer.tournaments[tournament].status == "active") {
+          /***********************************************************
+           * IF "current_round" is the same as "today", use "today"
+           * ELSE use "round"x and minus from par.
+           ***********************************************************/
+          if (golfer.tournaments[tournament].current_round == round) {
+            const roundFormattedToIncomingData = "round" + round;
+            //commented out the below code 5/17 because players' scores who were
+            //still on the course was coming back as an empty string.
 
-          if (
-            golfer.tournaments[tournament].scores[
-              roundFormattedToIncomingData
-            ] === null
-          ) {
-            golfer.tournaments[tournament].today = 100;
-          } else {
+            // if (
+            //   golfer.tournaments[tournament].scores[
+            //     roundFormattedToIncomingData
+            //   ] === null
+            // ) {
+            //   golfer.tournaments[tournament].today = "";
+            // } else {
+
             golfer.tournaments[tournament].scores[
               roundFormattedToIncomingData
             ] = parseInt(golfer.tournaments[tournament].today);
 
             return parseInt(golfer.tournaments[tournament].today);
-          }
-        } else {
-          const roundFormattedToIncomingData = "round" + round;
-          let scoreForSpecificRound = null;
+            // }
+          } else {
+            const roundFormattedToIncomingData = "round" + round;
+            let scoreForSpecificRound = null;
 
-          if (
+            if (
+              golfer.tournaments[tournament].scores[
+                roundFormattedToIncomingData
+              ] === null
+            ) {
+              scoreForSpecificRound = "";
+            } else {
+              scoreForSpecificRound =
+                parseInt(
+                  golfer.tournaments[tournament].scores[
+                    roundFormattedToIncomingData
+                  ]
+                ) - par;
+            }
+
             golfer.tournaments[tournament].scores[
               roundFormattedToIncomingData
-            ] === null
-          ) {
-            scoreForSpecificRound = 100;
-          } else {
-            scoreForSpecificRound =
-              parseInt(
-                golfer.tournaments[tournament].scores[
-                  roundFormattedToIncomingData
-                ]
-              ) - 72;
+            ] = scoreForSpecificRound;
+            return scoreForSpecificRound;
           }
+        } else {
+          /***********************************************************
+           * IF "current_round" is the same as "today", use "today"
+           * ELSE use "round"x and minus from par.
+           ***********************************************************/
+          if (golfer.tournaments[tournament].current_round == round) {
+            const roundFormattedToIncomingData = "round" + round;
 
-          golfer.tournaments[tournament].scores[
-            roundFormattedToIncomingData
-          ] = scoreForSpecificRound;
-          return scoreForSpecificRound;
+            if (
+              golfer.tournaments[tournament].scores[
+                roundFormattedToIncomingData
+              ] === null
+            ) {
+              golfer.tournaments[tournament].today = 100;
+            } else {
+              golfer.tournaments[tournament].scores[
+                roundFormattedToIncomingData
+              ] = parseInt(golfer.tournaments[tournament].today);
+
+              return parseInt(golfer.tournaments[tournament].today);
+            }
+          } else {
+            const roundFormattedToIncomingData = "round" + round;
+            let scoreForSpecificRound = null;
+
+            if (
+              golfer.tournaments[tournament].scores[
+                roundFormattedToIncomingData
+              ] === null
+            ) {
+              scoreForSpecificRound = 100;
+            } else {
+              scoreForSpecificRound =
+                parseInt(
+                  golfer.tournaments[tournament].scores[
+                    roundFormattedToIncomingData
+                  ]
+                ) - par;
+            }
+
+            golfer.tournaments[tournament].scores[
+              roundFormattedToIncomingData
+            ] = scoreForSpecificRound;
+            return scoreForSpecificRound;
+          }
         }
       };
 
-      let getScoreForPlayerInTournament = (player, tournament) => {
+      let getScoreForPlayerInTournament = (player, par, tournament) => {
         // Look at each golfer in tournament
         let playerTeamForTournament = player.teams.find(team => {
           return team.tournamentName == tournament;
@@ -68,7 +127,8 @@ export default function(state = [], action) {
             let golferScore = getScoreForGolferInRoundInTournament(
               golfer,
               round,
-              tournament
+              tournament,
+              par
             );
 
             allGolferScoresForThisRound.push(golferScore);
@@ -96,15 +156,22 @@ export default function(state = [], action) {
       let playerScoresForAllTournaments = action.payload.data.map(player => {
         player.scoresByRound.masters = getScoreForPlayerInTournament(
           player,
+          72,
           "masters"
         );
         player.scoresByRound.open = getScoreForPlayerInTournament(
           player,
+          72,
           "open"
         );
-        player.scoresByRound.pga = getScoreForPlayerInTournament(player, "pga");
+        player.scoresByRound.pga = getScoreForPlayerInTournament(
+          player,
+          70,
+          "pga"
+        );
         player.scoresByRound.usopen = getScoreForPlayerInTournament(
           player,
+          71,
           "usopen"
         );
         return player;

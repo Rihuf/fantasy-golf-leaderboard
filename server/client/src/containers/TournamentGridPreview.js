@@ -16,9 +16,9 @@ export class TournamentGridPreview extends Component {
     } else {
       const { players } = this.props;
       const { tournament } = this.props.tournament;
-      console.log(tournament);
+      console.log("tournament: ", tournament);
 
-      //sum the player's scoresByRound for this tournament
+      //sum the player's scoresByRounad for this tournament
       players.forEach(player => {
         if (player.scoresByRound[tournament].length > 0) {
           let sum = player.scoresByRound[tournament].reduce(
@@ -33,8 +33,7 @@ export class TournamentGridPreview extends Component {
       players.sort(
         (a, b) => a.scoreTotals[tournament] - b.scoreTotals[tournament]
       );
-      console.log(players);
-
+      console.log("helllooooo: ", players[37].scoreTotals[tournament]);
       return players.map((p, index) => {
         if (index < 6) {
           return (

@@ -5,7 +5,36 @@ export class HomePageTournamentBlock extends Component {
   renderLeaderboardOrDates() {
     if (this.props.tournament.tournament.length == 0) {
       return <div>loading...</div>;
-    } else if (this.props.tournament.tournament == "masters") {
+      /*******************************************************
+     * Change the below conditional to change activate the 
+     * tournament leaderboard preview or the dates of the
+     * tournament to come.
+     * 
+     * -----------------------------------------------------
+     * 
+     * Sample of original code for master's score render
+     * and date render for the other 3:
+     * 
+     * -----------------------------------------------------
+     * 
+     *  else if (this.props.tournament.tournament == "masters") {
+          const { tournament } = this.props;
+          return <TournamentGridPreview tournament={tournament} />;
+        } else {
+          const { tournament } = this.props;
+          return (
+            <div className="dates">
+              <div className="start">{tournament.dateStart}</div>
+              <div className="end">{tournament.dateEnd}</div>
+            </div>
+          );
+        }
+     * 
+     *******************************************************/
+    } else if (
+      this.props.tournament.tournament == "masters" ||
+      this.props.tournament.tournament == "pga"
+    ) {
       const { tournament } = this.props;
       return <TournamentGridPreview tournament={tournament} />;
     } else {

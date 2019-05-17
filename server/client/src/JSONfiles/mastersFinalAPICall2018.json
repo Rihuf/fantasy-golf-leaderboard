@@ -1,0 +1,6496 @@
+{
+  "debug": {
+    "msg_id": "39611",
+    "setup_file_found": true,
+    "setup_generated": "2019-04-14T17:18:20",
+    "setup_year": "2019",
+    "current_round_in_setup": 4,
+    "last_round_in_setup": 4,
+    "schedule_file_found": true,
+    "schedule_generated": "2019-04-14T16:15:10",
+    "tournament_in_schedule_file_found": true,
+    "tournament_in_schedule_file_name": "Masters Tournament",
+    "format_in_schedule_file_name": "Stroke"
+  },
+  "last_updated": "2019-04-14T17:04:09",
+  "time_stamp": "20190414170409",
+  "leaderboard": {
+    "tour_code": "r",
+    "tour_name": "PGA TOUR",
+    "tournament_id": "014",
+    "tournament_name": "The Masters",
+    "start_date": "2019-04-11",
+    "end_date": "2019-04-14",
+    "tournament_format": "stroke",
+    "scoring_type": "1",
+    "in_cup": true,
+    "total_rounds": 4,
+    "is_started": true,
+    "is_finished": false,
+    "current_round": 4,
+    "round_state": "Official",
+    "in_playoff": false,
+    "courses": [
+      {
+        "course_id": "014",
+        "course_code": "AN",
+        "course_name": "Augusta National GC",
+        "is_host": true,
+        "par_in": "36",
+        "par_out": "36",
+        "par_total": "72",
+        "distance_in": 116820,
+        "distance_out": 118980,
+        "distance_total": 252360
+      }
+    ],
+    "cut_line": {
+      "show_cut_line": true,
+      "cut_count": 65,
+      "cut_line_score": 3,
+      "show_projected": false,
+      "projected_count": 65,
+      "paid_players_making_cut": 50
+    },
+    "players": [
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "08793",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Tiger",
+          "short_name": "T",
+          "last_name": "Woods",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "1",
+        "start_position": "T2",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -2,
+        "total": -13,
+        "total_strokes": 275,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T11:04:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 68,
+            "tee_time": "2019-04-12T13:49:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 67,
+            "tee_time": "2019-04-13T14:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T09:20:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 288,
+          "cup_rank": "81",
+          "cup_trailing": 1377,
+          "projected_cup_points_total": 888,
+          "projected_cup_points_event": 600,
+          "projected_cup_rank": "13",
+          "projected_money_total": 734717,
+          "projected_money_event": 0,
+          "projected_money_rank": "74",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "74",
+          "money_proj_rank": "74",
+          "points_start_rank": "74",
+          "points_proj_rank": "74",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "102"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "30925",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Dustin",
+          "short_name": "D",
+          "last_name": "Johnson",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T2",
+        "start_position": "T7",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -4,
+        "total": -12,
+        "total_strokes": 276,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 68,
+            "tee_time": "2019-04-11T13:38:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 70,
+            "tee_time": "2019-04-12T10:42:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 70,
+            "tee_time": "2019-04-13T14:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 68,
+            "tee_time": "2019-04-14T08:47:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 984,
+          "cup_rank": "10",
+          "cup_trailing": 681,
+          "projected_cup_points_total": 1214,
+          "projected_cup_points_event": 230,
+          "projected_cup_rank": "5",
+          "projected_money_total": 3066552,
+          "projected_money_event": 0,
+          "projected_money_rank": "5",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "5",
+          "money_proj_rank": "5",
+          "points_start_rank": "5",
+          "points_proj_rank": "5",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "99"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "48081",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Xander",
+          "short_name": "X",
+          "last_name": "Schauffele",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T2",
+        "start_position": "T7",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -4,
+        "total": -12,
+        "total_strokes": 276,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T10:53:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 65,
+            "tee_time": "2019-04-12T13:38:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 70,
+            "tee_time": "2019-04-13T14:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 68,
+            "tee_time": "2019-04-14T08:58:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 1328,
+          "cup_rank": "3",
+          "cup_trailing": 337,
+          "projected_cup_points_total": 1558,
+          "projected_cup_points_event": 230,
+          "projected_cup_rank": "2",
+          "projected_money_total": 3612173,
+          "projected_money_event": 0,
+          "projected_money_rank": "3",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "3",
+          "money_proj_rank": "3",
+          "points_start_rank": "3",
+          "points_proj_rank": "3",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "100"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "36689",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Brooks",
+          "short_name": "B",
+          "last_name": "Koepka",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T2",
+        "start_position": "4",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -2,
+        "total": -12,
+        "total_strokes": 276,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 66,
+            "tee_time": "2019-04-11T14:00:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T11:04:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 69,
+            "tee_time": "2019-04-13T14:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T09:09:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 882,
+          "cup_rank": "11",
+          "cup_trailing": 783,
+          "projected_cup_points_total": 1112,
+          "projected_cup_points_event": 230,
+          "projected_cup_rank": "6",
+          "projected_money_total": 2667650,
+          "projected_money_event": 0,
+          "projected_money_rank": "7",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "7",
+          "money_proj_rank": "7",
+          "points_start_rank": "7",
+          "points_proj_rank": "7",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "101"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "28089",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Jason",
+          "short_name": "J",
+          "last_name": "Day",
+          "country": "AUS",
+          "is_member": true
+        },
+        "current_position": "T5",
+        "start_position": "T14",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -5,
+        "total": -11,
+        "total_strokes": 277,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T13:38:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 67,
+            "tee_time": "2019-04-12T10:42:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T14:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 67,
+            "tee_time": "2019-04-14T08:14:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 547,
+          "cup_rank": "36",
+          "cup_trailing": 1118,
+          "projected_cup_points_total": 653,
+          "projected_cup_points_event": 106,
+          "projected_cup_rank": "29",
+          "projected_money_total": 1654633,
+          "projected_money_event": 0,
+          "projected_money_rank": "25",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "25",
+          "money_proj_rank": "25",
+          "points_start_rank": "25",
+          "points_proj_rank": "25",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "96"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "29221",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Webb",
+          "short_name": "W",
+          "last_name": "Simpson",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T5",
+        "start_position": "T5",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -2,
+        "total": -11,
+        "total_strokes": 277,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T10:31:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T13:16:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 64,
+            "tee_time": "2019-04-13T11:55:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T09:09:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 450,
+          "cup_rank": "49",
+          "cup_trailing": 1215,
+          "projected_cup_points_total": 556,
+          "projected_cup_points_event": 106,
+          "projected_cup_rank": "39",
+          "projected_money_total": 1147388,
+          "projected_money_event": 0,
+          "projected_money_rank": "48",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "48",
+          "money_proj_rank": "48",
+          "points_start_rank": "48",
+          "points_proj_rank": "48",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "101"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "29725",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Tony",
+          "short_name": "T",
+          "last_name": "Finau",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T5",
+        "start_position": "T2",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 0,
+        "total": -11,
+        "total_strokes": 277,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 71,
+            "tee_time": "2019-04-11T09:58:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 70,
+            "tee_time": "2019-04-12T12:54:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 64,
+            "tee_time": "2019-04-13T13:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 72,
+            "tee_time": "2019-04-14T09:20:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 595,
+          "cup_rank": "29",
+          "cup_trailing": 1070,
+          "projected_cup_points_total": 701,
+          "projected_cup_points_event": 106,
+          "projected_cup_rank": "25",
+          "projected_money_total": 1763657,
+          "projected_money_event": 0,
+          "projected_money_rank": "22",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "22",
+          "money_proj_rank": "22",
+          "points_start_rank": "22",
+          "points_proj_rank": "22",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "102"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "25198",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Francesco",
+          "short_name": "F",
+          "last_name": "Molinari",
+          "country": "ITA",
+          "is_member": true
+        },
+        "current_position": "T5",
+        "start_position": "1",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 2,
+        "total": -11,
+        "total_strokes": 277,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T13:16:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 67,
+            "tee_time": "2019-04-12T10:09:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 66,
+            "tee_time": "2019-04-13T14:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 74,
+            "tee_time": "2019-04-14T09:20:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 803,
+          "cup_rank": "16",
+          "cup_trailing": 862,
+          "projected_cup_points_total": 909,
+          "projected_cup_points_event": 106,
+          "projected_cup_rank": "12",
+          "projected_money_total": 2623500,
+          "projected_money_event": 0,
+          "projected_money_rank": "9",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "9",
+          "money_proj_rank": "9",
+          "points_start_rank": "9",
+          "points_proj_rank": "9",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "102"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "46970",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Jon",
+          "short_name": "J",
+          "last_name": "Rahm",
+          "country": "ESP",
+          "is_member": true
+        },
+        "current_position": "T9",
+        "start_position": "T14",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -4,
+        "total": -10,
+        "total_strokes": 278,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 69,
+            "tee_time": "2019-04-11T11:04:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 70,
+            "tee_time": "2019-04-12T13:49:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 71,
+            "tee_time": "2019-04-13T13:55:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 68,
+            "tee_time": "2019-04-14T08:25:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 654,
+          "cup_rank": "25",
+          "cup_trailing": 1011,
+          "projected_cup_points_total": 736,
+          "projected_cup_points_event": 82,
+          "projected_cup_rank": "23",
+          "projected_money_total": 1713838,
+          "projected_money_event": 0,
+          "projected_money_rank": "24",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "24",
+          "money_proj_rank": "24",
+          "points_start_rank": "24",
+          "points_proj_rank": "24",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "97"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "35450",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Patrick",
+          "short_name": "P",
+          "last_name": "Cantlay",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T9",
+        "start_position": "T14",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -4,
+        "total": -10,
+        "total_strokes": 278,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T13:27:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T10:31:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 64,
+            "tee_time": "2019-04-13T10:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 68,
+            "tee_time": "2019-04-14T08:36:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 677,
+          "cup_rank": "22",
+          "cup_trailing": 988,
+          "projected_cup_points_total": 760,
+          "projected_cup_points_event": 82,
+          "projected_cup_rank": "21",
+          "projected_money_total": 1650590,
+          "projected_money_event": 0,
+          "projected_money_rank": "26",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "26",
+          "money_proj_rank": "26",
+          "points_start_rank": "26",
+          "points_proj_rank": "26",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "98"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "32102",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Rickie",
+          "short_name": "R",
+          "last_name": "Fowler",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T9",
+        "start_position": "T12",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -3,
+        "total": -10,
+        "total_strokes": 278,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T11:15:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T14:00:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 68,
+            "tee_time": "2019-04-13T13:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T08:47:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 1006,
+          "cup_rank": "8",
+          "cup_trailing": 659,
+          "projected_cup_points_total": 1088,
+          "projected_cup_points_event": 82,
+          "projected_cup_rank": "8",
+          "projected_money_total": 2542667,
+          "projected_money_event": 0,
+          "projected_money_rank": "10",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "10",
+          "money_proj_rank": "10",
+          "points_start_rank": "10",
+          "points_proj_rank": "10",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "99"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "25804",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Bubba",
+          "short_name": "B",
+          "last_name": "Watson",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T12",
+        "start_position": "T20",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -3,
+        "total": -8,
+        "total_strokes": 280,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T13:27:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T10:31:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 67,
+            "tee_time": "2019-04-13T11:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T08:14:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 406,
+          "cup_rank": "55",
+          "cup_trailing": 1259,
+          "projected_cup_points_total": 470,
+          "projected_cup_points_event": 65,
+          "projected_cup_rank": "49",
+          "projected_money_total": 1051958,
+          "projected_money_event": 0,
+          "projected_money_rank": "55",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "55",
+          "money_proj_rank": "55",
+          "points_start_rank": "55",
+          "points_proj_rank": "55",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "96"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "33448",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Justin",
+          "short_name": "J",
+          "last_name": "Thomas",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T12",
+        "start_position": "T14",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -2,
+        "total": -8,
+        "total_strokes": 280,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T13:49:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 68,
+            "tee_time": "2019-04-12T10:53:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 69,
+            "tee_time": "2019-04-13T13:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T08:25:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 999,
+          "cup_rank": "9",
+          "cup_trailing": 666,
+          "projected_cup_points_total": 1064,
+          "projected_cup_points_event": 65,
+          "projected_cup_rank": "10",
+          "projected_money_total": 2519900,
+          "projected_money_event": 0,
+          "projected_money_rank": "12",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "12",
+          "money_proj_rank": "12",
+          "points_start_rank": "12",
+          "points_proj_rank": "12",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "97"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "28938",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Justin",
+          "short_name": "J",
+          "last_name": "Harding",
+          "country": "RSA",
+          "is_member": false
+        },
+        "current_position": "T12",
+        "start_position": "T7",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 0,
+        "total": -8,
+        "total_strokes": 280,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 69,
+            "tee_time": "2019-04-11T09:03:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 69,
+            "tee_time": "2019-04-12T11:48:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 70,
+            "tee_time": "2019-04-13T14:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 72,
+            "tee_time": "2019-04-14T08:58:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "12",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "100"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "23108",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Matt",
+          "short_name": "M",
+          "last_name": "Kuchar",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T12",
+        "start_position": "T7",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 0,
+        "total": -8,
+        "total_strokes": 280,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 71,
+            "tee_time": "2019-04-11T13:05:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 69,
+            "tee_time": "2019-04-12T09:58:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 68,
+            "tee_time": "2019-04-13T13:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 72,
+            "tee_time": "2019-04-14T08:58:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 1665,
+          "cup_rank": "1",
+          "cup_trailing": 0,
+          "projected_cup_points_total": 1730,
+          "projected_cup_points_event": 65,
+          "projected_cup_rank": "1",
+          "projected_money_total": 4424344,
+          "projected_money_event": 0,
+          "projected_money_rank": "2",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "2",
+          "money_proj_rank": "2",
+          "points_start_rank": "2",
+          "points_proj_rank": "2",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "100"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "24138",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Ian",
+          "short_name": "I",
+          "last_name": "Poulter",
+          "country": "ENG",
+          "is_member": true
+        },
+        "current_position": "T12",
+        "start_position": "T5",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 1,
+        "total": -8,
+        "total_strokes": 280,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 68,
+            "tee_time": "2019-04-11T13:05:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T09:58:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 68,
+            "tee_time": "2019-04-13T14:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 73,
+            "tee_time": "2019-04-14T09:09:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 426,
+          "cup_rank": "51",
+          "cup_trailing": 1239,
+          "projected_cup_points_total": 491,
+          "projected_cup_points_event": 65,
+          "projected_cup_rank": "43",
+          "projected_money_total": 1140934,
+          "projected_money_event": 0,
+          "projected_money_rank": "50",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "50",
+          "money_proj_rank": "50",
+          "points_start_rank": "50",
+          "points_proj_rank": "50",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "101"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "49964",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Aaron",
+          "short_name": "A",
+          "last_name": "Wise",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "17",
+        "start_position": "T31",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -5,
+        "total": -7,
+        "total_strokes": 281,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T09:03:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T11:48:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 68,
+            "tee_time": "2019-04-13T10:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 67,
+            "tee_time": "2019-04-14T07:30:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 216,
+          "cup_rank": "104",
+          "cup_trailing": 1449,
+          "projected_cup_points_total": 273,
+          "projected_cup_points_event": 57,
+          "projected_cup_rank": "86",
+          "projected_money_total": 537265,
+          "projected_money_event": 0,
+          "projected_money_rank": "99",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "99",
+          "money_proj_rank": "99",
+          "points_start_rank": "99",
+          "points_proj_rank": "99",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "92"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "32757",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Patton",
+          "short_name": "P",
+          "last_name": "Kizzire",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T18",
+        "start_position": "T25",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -3,
+        "total": -6,
+        "total_strokes": 282,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T11:26:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 70,
+            "tee_time": "2019-04-12T08:30:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T13:55:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T07:41:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 269,
+          "cup_rank": "86",
+          "cup_trailing": 1396,
+          "projected_cup_points_total": 322,
+          "projected_cup_points_event": 53,
+          "projected_cup_rank": "78",
+          "projected_money_total": 672457,
+          "projected_money_event": 0,
+          "projected_money_rank": "83",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "83",
+          "money_proj_rank": "83",
+          "points_start_rank": "83",
+          "points_proj_rank": "83",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "93"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "01810",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Phil",
+          "short_name": "P",
+          "last_name": "Mickelson",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T18",
+        "start_position": "T14",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 0,
+        "total": -6,
+        "total_strokes": 282,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 67,
+            "tee_time": "2019-04-11T13:49:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T10:53:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 70,
+            "tee_time": "2019-04-13T13:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 72,
+            "tee_time": "2019-04-14T08:25:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 833,
+          "cup_rank": "15",
+          "cup_trailing": 832,
+          "projected_cup_points_total": 886,
+          "projected_cup_points_event": 53,
+          "projected_cup_rank": "14",
+          "projected_money_total": 2132980,
+          "projected_money_event": 0,
+          "projected_money_rank": "17",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "17",
+          "money_proj_rank": "17",
+          "points_start_rank": "17",
+          "points_proj_rank": "17",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "97"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "24502",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Adam",
+          "short_name": "A",
+          "last_name": "Scott",
+          "country": "AUS",
+          "is_member": true
+        },
+        "current_position": "T18",
+        "start_position": "T12",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 1,
+        "total": -6,
+        "total_strokes": 282,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 69,
+            "tee_time": "2019-04-11T10:09:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 68,
+            "tee_time": "2019-04-12T13:05:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 72,
+            "tee_time": "2019-04-13T14:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 73,
+            "tee_time": "2019-04-14T08:36:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 577,
+          "cup_rank": "31",
+          "cup_trailing": 1088,
+          "projected_cup_points_total": 630,
+          "projected_cup_points_event": 53,
+          "projected_cup_rank": "30",
+          "projected_money_total": 1605959,
+          "projected_money_event": 0,
+          "projected_money_rank": "28",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "28",
+          "money_proj_rank": "28",
+          "points_start_rank": "28",
+          "points_proj_rank": "28",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "98"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "37455",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Si Woo",
+          "short_name": "S",
+          "last_name": "Kim",
+          "country": "KOR",
+          "is_member": true
+        },
+        "current_position": "T21",
+        "start_position": "T31",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -3,
+        "total": -5,
+        "total_strokes": 283,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T09:25:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T12:10:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 70,
+            "tee_time": "2019-04-13T11:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T07:30:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 668,
+          "cup_rank": "23",
+          "cup_trailing": 997,
+          "projected_cup_points_total": 710,
+          "projected_cup_points_event": 42,
+          "projected_cup_rank": "24",
+          "projected_money_total": 1722417,
+          "projected_money_event": 0,
+          "projected_money_rank": "23",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "23",
+          "money_proj_rank": "23",
+          "points_start_rank": "23",
+          "points_proj_rank": "23",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "92"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "30110",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Kyle",
+          "short_name": "K",
+          "last_name": "Stanley",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T21",
+        "start_position": "T31",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -3,
+        "total": -5,
+        "total_strokes": 283,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T10:09:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T13:05:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 70,
+            "tee_time": "2019-04-13T11:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T07:30:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 177,
+          "cup_rank": "120",
+          "cup_trailing": 1488,
+          "projected_cup_points_total": 219,
+          "projected_cup_points_event": 42,
+          "projected_cup_rank": "105",
+          "projected_money_total": 436614,
+          "projected_money_event": 0,
+          "projected_money_rank": "110",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "110",
+          "money_proj_rank": "110",
+          "points_start_rank": "110",
+          "points_proj_rank": "110",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "103"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "40098",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Matthew",
+          "short_name": "M",
+          "last_name": "Fitzpatrick",
+          "country": "ENG",
+          "is_member": false
+        },
+        "current_position": "T21",
+        "start_position": "T25",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -2,
+        "total": -5,
+        "total_strokes": 283,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 78,
+            "tee_time": "2019-04-11T12:32:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 67,
+            "tee_time": "2019-04-12T09:25:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 68,
+            "tee_time": "2019-04-13T10:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T07:41:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "110",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "93"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "29478",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Kevin",
+          "short_name": "K",
+          "last_name": "Kisner",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T21",
+        "start_position": "T31",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -3,
+        "total": -5,
+        "total_strokes": 283,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 69,
+            "tee_time": "2019-04-11T12:54:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T09:47:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 72,
+            "tee_time": "2019-04-13T12:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T07:41:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 838,
+          "cup_rank": "14",
+          "cup_trailing": 827,
+          "projected_cup_points_total": 880,
+          "projected_cup_points_event": 42,
+          "projected_cup_rank": "15",
+          "projected_money_total": 2403340,
+          "projected_money_event": 0,
+          "projected_money_rank": "14",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "14",
+          "money_proj_rank": "14",
+          "points_start_rank": "14",
+          "points_proj_rank": "14",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "104"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "28237",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Rory",
+          "short_name": "R",
+          "last_name": "McIlroy",
+          "country": "NIR",
+          "is_member": true
+        },
+        "current_position": "T21",
+        "start_position": "T39",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -4,
+        "total": -5,
+        "total_strokes": 283,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T11:15:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T14:00:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 71,
+            "tee_time": "2019-04-13T11:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 68,
+            "tee_time": "2019-04-14T07:52:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 1416,
+          "cup_rank": "2",
+          "cup_trailing": 249,
+          "projected_cup_points_total": 1457,
+          "projected_cup_points_event": 42,
+          "projected_cup_rank": "3",
+          "projected_money_total": 4747008,
+          "projected_money_event": 0,
+          "projected_money_rank": "1",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "1",
+          "money_proj_rank": "1",
+          "points_start_rank": "1",
+          "points_proj_rank": "1",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "105"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "34046",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Jordan",
+          "short_name": "J",
+          "last_name": "Spieth",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T21",
+        "start_position": "T22",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": -1,
+        "total": -5,
+        "total_strokes": 283,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T14:00:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 68,
+            "tee_time": "2019-04-12T11:04:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 69,
+            "tee_time": "2019-04-13T12:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 71,
+            "tee_time": "2019-04-14T08:03:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 102,
+          "cup_rank": "170",
+          "cup_trailing": 1563,
+          "projected_cup_points_total": 144,
+          "projected_cup_points_event": 42,
+          "projected_cup_rank": "142",
+          "projected_money_total": 273850,
+          "projected_money_event": 0,
+          "projected_money_rank": "153",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "153",
+          "money_proj_rank": "153",
+          "points_start_rank": "153",
+          "points_proj_rank": "153",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "95"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "33803",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Lucas",
+          "short_name": "L",
+          "last_name": "Bjerregaard",
+          "country": "DEN",
+          "is_member": false
+        },
+        "current_position": "T21",
+        "start_position": "T20",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 0,
+        "total": -5,
+        "total_strokes": 283,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T09:36:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T12:32:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 69,
+            "tee_time": "2019-04-13T12:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 72,
+            "tee_time": "2019-04-14T08:14:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "153",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "96"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "33968",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Thorbjorn",
+          "short_name": "T",
+          "last_name": "Olesen",
+          "country": "DEN",
+          "is_member": false
+        },
+        "current_position": "T21",
+        "start_position": "T14",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 1,
+        "total": -5,
+        "total_strokes": 283,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 71,
+            "tee_time": "2019-04-11T11:59:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T09:03:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 68,
+            "tee_time": "2019-04-13T12:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 73,
+            "tee_time": "2019-04-14T08:36:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "153",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "98"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "12716",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Charley",
+          "short_name": "C",
+          "last_name": "Hoffman",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T29",
+        "start_position": "T31",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -2,
+        "total": -4,
+        "total_strokes": 284,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 71,
+            "tee_time": "2019-04-11T10:42:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T13:27:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 72,
+            "tee_time": "2019-04-13T12:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T07:30:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 410,
+          "cup_rank": "54",
+          "cup_trailing": 1255,
+          "projected_cup_points_total": 442,
+          "projected_cup_points_event": 32,
+          "projected_cup_rank": "54",
+          "projected_money_total": 1071951,
+          "projected_money_event": 0,
+          "projected_money_rank": "54",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "54",
+          "money_proj_rank": "54",
+          "points_start_rank": "54",
+          "points_proj_rank": "54",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "103"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "47959",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Bryson",
+          "short_name": "B",
+          "last_name": "DeChambeau",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T29",
+        "start_position": "T31",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -2,
+        "total": -4,
+        "total_strokes": 284,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 66,
+            "tee_time": "2019-04-11T13:38:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 75,
+            "tee_time": "2019-04-12T10:42:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T13:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T07:41:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 784,
+          "cup_rank": "17",
+          "cup_trailing": 881,
+          "projected_cup_points_total": 815,
+          "projected_cup_points_event": 32,
+          "projected_cup_rank": "18",
+          "projected_money_total": 2040429,
+          "projected_money_event": 0,
+          "projected_money_rank": "18",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "18",
+          "money_proj_rank": "18",
+          "points_start_rank": "18",
+          "points_proj_rank": "18",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "104"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "26329",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Louis",
+          "short_name": "L",
+          "last_name": "Oosthuizen",
+          "country": "RSA",
+          "is_member": true
+        },
+        "current_position": "T29",
+        "start_position": "T7",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 4,
+        "total": -4,
+        "total_strokes": 284,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 71,
+            "tee_time": "2019-04-11T10:42:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 66,
+            "tee_time": "2019-04-12T13:27:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 71,
+            "tee_time": "2019-04-13T14:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 76,
+            "tee_time": "2019-04-14T08:47:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 509,
+          "cup_rank": "39",
+          "cup_trailing": 1156,
+          "projected_cup_points_total": 541,
+          "projected_cup_points_event": 32,
+          "projected_cup_rank": "40",
+          "projected_money_total": 1319224,
+          "projected_money_event": 0,
+          "projected_money_rank": "38",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "38",
+          "money_proj_rank": "38",
+          "points_start_rank": "38",
+          "points_proj_rank": "38",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "99"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "46717",
+        "player_bio": {
+          "is_amateur": true,
+          "first_name": "Viktor",
+          "short_name": "V",
+          "last_name": "Hovland",
+          "country": "NOR",
+          "is_member": false
+        },
+        "current_position": "T32",
+        "start_position": "T31",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -1,
+        "total": -3,
+        "total_strokes": 285,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T10:31:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T13:16:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 71,
+            "tee_time": "2019-04-13T11:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 71,
+            "tee_time": "2019-04-14T07:30:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "",
+          "money_proj_rank": "",
+          "points_start_rank": null,
+          "points_proj_rank": null,
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "103"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "32839",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Hideki",
+          "short_name": "H",
+          "last_name": "Matsuyama",
+          "country": "JPN",
+          "is_member": true
+        },
+        "current_position": "T32",
+        "start_position": "T25",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 0,
+        "total": -3,
+        "total_strokes": 285,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T10:09:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 70,
+            "tee_time": "2019-04-12T13:05:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 68,
+            "tee_time": "2019-04-13T10:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 72,
+            "tee_time": "2019-04-14T07:52:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 544,
+          "cup_rank": "37",
+          "cup_trailing": 1121,
+          "projected_cup_points_total": 570,
+          "projected_cup_points_event": 26,
+          "projected_cup_rank": "35",
+          "projected_money_total": 1496284,
+          "projected_money_event": 0,
+          "projected_money_rank": "33",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "33",
+          "money_proj_rank": "33",
+          "points_start_rank": "33",
+          "points_proj_rank": "33",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "94"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "31323",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Gary",
+          "short_name": "G",
+          "last_name": "Woodland",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T32",
+        "start_position": "T39",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -2,
+        "total": -3,
+        "total_strokes": 285,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T10:53:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T13:38:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 74,
+            "tee_time": "2019-04-13T13:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T07:52:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 1076,
+          "cup_rank": "5",
+          "cup_trailing": 589,
+          "projected_cup_points_total": 1102,
+          "projected_cup_points_event": 26,
+          "projected_cup_rank": "7",
+          "projected_money_total": 2952803,
+          "projected_money_event": 0,
+          "projected_money_rank": "6",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "6",
+          "money_proj_rank": "6",
+          "points_start_rank": "6",
+          "points_proj_rank": "6",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "105"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "21961",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Charles",
+          "short_name": "C",
+          "last_name": "Howell III",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T32",
+        "start_position": "T43",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -3,
+        "total": -3,
+        "total_strokes": 285,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T09:47:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 67,
+            "tee_time": "2019-04-12T12:43:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 76,
+            "tee_time": "2019-04-13T13:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T08:03:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 1060,
+          "cup_rank": "6",
+          "cup_trailing": 605,
+          "projected_cup_points_total": 1086,
+          "projected_cup_points_event": 26,
+          "projected_cup_rank": "9",
+          "projected_money_total": 2536224,
+          "projected_money_event": 0,
+          "projected_money_rank": "11",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "11",
+          "money_proj_rank": "11",
+          "points_start_rank": "11",
+          "points_proj_rank": "11",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "106"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "32333",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Kevin",
+          "short_name": "K",
+          "last_name": "Tway",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T36",
+        "start_position": "T25",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 1,
+        "total": -2,
+        "total_strokes": 286,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T08:41:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T11:26:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 70,
+            "tee_time": "2019-04-13T12:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 73,
+            "tee_time": "2019-04-14T07:41:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 651,
+          "cup_rank": "26",
+          "cup_trailing": 1014,
+          "projected_cup_points_total": 671,
+          "projected_cup_points_event": 19,
+          "projected_cup_rank": "27",
+          "projected_money_total": 1468218,
+          "projected_money_event": 0,
+          "projected_money_rank": "34",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "34",
+          "money_proj_rank": "34",
+          "points_start_rank": "34",
+          "points_proj_rank": "34",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "93"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "21528",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Henrik",
+          "short_name": "H",
+          "last_name": "Stenson",
+          "country": "SWE",
+          "is_member": true
+        },
+        "current_position": "T36",
+        "start_position": "T25",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 1,
+        "total": -2,
+        "total_strokes": 286,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 74,
+            "tee_time": "2019-04-11T09:58:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T12:54:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 67,
+            "tee_time": "2019-04-13T09:55:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 73,
+            "tee_time": "2019-04-14T07:52:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 155,
+          "cup_rank": "137",
+          "cup_trailing": 1510,
+          "projected_cup_points_total": 174,
+          "projected_cup_points_event": 19,
+          "projected_cup_rank": "123",
+          "projected_money_total": 401923,
+          "projected_money_event": 0,
+          "projected_money_rank": "118",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "118",
+          "money_proj_rank": "118",
+          "points_start_rank": "118",
+          "points_proj_rank": "118",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "94"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "30911",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Tommy",
+          "short_name": "T",
+          "last_name": "Fleetwood",
+          "country": "ENG",
+          "is_member": true
+        },
+        "current_position": "T36",
+        "start_position": "T22",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 2,
+        "total": -2,
+        "total_strokes": 286,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 71,
+            "tee_time": "2019-04-11T10:53:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T13:38:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 70,
+            "tee_time": "2019-04-13T12:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 74,
+            "tee_time": "2019-04-14T08:03:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 456,
+          "cup_rank": "46",
+          "cup_trailing": 1209,
+          "projected_cup_points_total": 475,
+          "projected_cup_points_event": 19,
+          "projected_cup_rank": "46",
+          "projected_money_total": 1396314,
+          "projected_money_event": 0,
+          "projected_money_rank": "36",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "36",
+          "money_proj_rank": "36",
+          "points_start_rank": "36",
+          "points_proj_rank": "36",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "95"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "25632",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Jimmy",
+          "short_name": "J",
+          "last_name": "Walker",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T36",
+        "start_position": "T43",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -2,
+        "total": -2,
+        "total_strokes": 286,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T11:48:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T08:52:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 72,
+            "tee_time": "2019-04-13T11:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T08:03:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 93,
+          "cup_rank": "176",
+          "cup_trailing": 1572,
+          "projected_cup_points_total": 113,
+          "projected_cup_points_event": 19,
+          "projected_cup_rank": "160",
+          "projected_money_total": 226543,
+          "projected_money_event": 0,
+          "projected_money_rank": "167",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "167",
+          "money_proj_rank": "167",
+          "points_start_rank": "167",
+          "points_proj_rank": "167",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "106"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "30063",
+        "player_bio": {
+          "is_amateur": true,
+          "first_name": "Alvaro",
+          "short_name": "A",
+          "last_name": "Ortiz",
+          "country": "MEX",
+          "is_member": false
+        },
+        "current_position": "T36",
+        "start_position": "T47",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -3,
+        "total": -2,
+        "total_strokes": 286,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T12:10:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T09:14:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T11:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T08:14:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "",
+          "money_proj_rank": "",
+          "points_start_rank": null,
+          "points_proj_rank": null,
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "107"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "34360",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Patrick",
+          "short_name": "P",
+          "last_name": "Reed",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T36",
+        "start_position": "T47",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -3,
+        "total": -2,
+        "total_strokes": 286,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T10:31:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 70,
+            "tee_time": "2019-04-12T13:16:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 74,
+            "tee_time": "2019-04-13T11:55:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T08:25:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 374,
+          "cup_rank": "63",
+          "cup_trailing": 1291,
+          "projected_cup_points_total": 393,
+          "projected_cup_points_event": 19,
+          "projected_cup_rank": "60",
+          "projected_money_total": 863969,
+          "projected_money_event": 0,
+          "projected_money_rank": "66",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "66",
+          "money_proj_rank": "66",
+          "points_start_rank": "66",
+          "points_proj_rank": "66",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "108"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "26499",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Rafa",
+          "short_name": "R",
+          "last_name": "Cabrera Bello",
+          "country": "ESP",
+          "is_member": true
+        },
+        "current_position": "T36",
+        "start_position": "T50",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -4,
+        "total": -2,
+        "total_strokes": 286,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T13:16:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 70,
+            "tee_time": "2019-04-12T10:09:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 75,
+            "tee_time": "2019-04-13T12:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 68,
+            "tee_time": "2019-04-14T08:47:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 547,
+          "cup_rank": "35",
+          "cup_trailing": 1118,
+          "projected_cup_points_total": 566,
+          "projected_cup_points_event": 19,
+          "projected_cup_rank": "36",
+          "projected_money_total": 1524431,
+          "projected_money_event": 0,
+          "projected_money_rank": "29",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "29",
+          "money_proj_rank": "29",
+          "points_start_rank": "29",
+          "points_proj_rank": "29",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "110"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "33141",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Keegan",
+          "short_name": "K",
+          "last_name": "Bradley",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T43",
+        "start_position": "T39",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 0,
+        "total": -1,
+        "total_strokes": 287,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 76,
+            "tee_time": "2019-04-11T12:32:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 68,
+            "tee_time": "2019-04-12T09:25:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 71,
+            "tee_time": "2019-04-13T11:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 72,
+            "tee_time": "2019-04-14T07:52:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 385,
+          "cup_rank": "58",
+          "cup_trailing": 1280,
+          "projected_cup_points_total": 399,
+          "projected_cup_points_event": 14,
+          "projected_cup_rank": "59",
+          "projected_money_total": 1001423,
+          "projected_money_event": 0,
+          "projected_money_rank": "58",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "58",
+          "money_proj_rank": "58",
+          "points_start_rank": "58",
+          "points_proj_rank": "58",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "105"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "39546",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Keith",
+          "short_name": "K",
+          "last_name": "Mitchell",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T43",
+        "start_position": "T50",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -3,
+        "total": -1,
+        "total_strokes": 287,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T08:41:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 74,
+            "tee_time": "2019-04-12T11:26:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 72,
+            "tee_time": "2019-04-13T10:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T08:25:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 759,
+          "cup_rank": "19",
+          "cup_trailing": 906,
+          "projected_cup_points_total": 772,
+          "projected_cup_points_event": 14,
+          "projected_cup_rank": "19",
+          "projected_money_total": 1976443,
+          "projected_money_event": 0,
+          "projected_money_rank": "19",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "19",
+          "money_proj_rank": "19",
+          "points_start_rank": "19",
+          "points_proj_rank": "19",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "108"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "35296",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Haotong",
+          "short_name": "H",
+          "last_name": "Li",
+          "country": "CHN",
+          "is_member": false
+        },
+        "current_position": "T43",
+        "start_position": "T57",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -4,
+        "total": -1,
+        "total_strokes": 287,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T11:04:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 74,
+            "tee_time": "2019-04-12T13:49:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T09:55:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 68,
+            "tee_time": "2019-04-14T08:58:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "19",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "111"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "39997",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Corey",
+          "short_name": "C",
+          "last_name": "Conners",
+          "country": "CAN",
+          "is_member": true
+        },
+        "current_position": "T46",
+        "start_position": "T22",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 4,
+        "total": 0,
+        "total_strokes": 288,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T08:30:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T11:15:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 71,
+            "tee_time": "2019-04-13T13:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 76,
+            "tee_time": "2019-04-14T08:03:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 846,
+          "cup_rank": "13",
+          "cup_trailing": 819,
+          "projected_cup_points_total": 857,
+          "projected_cup_points_event": 11,
+          "projected_cup_rank": "17",
+          "projected_money_total": 2228813,
+          "projected_money_event": 0,
+          "projected_money_rank": "15",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "15",
+          "money_proj_rank": "15",
+          "points_start_rank": "15",
+          "points_proj_rank": "15",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "95"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "25396",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Kevin",
+          "short_name": "K",
+          "last_name": "Na",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T46",
+        "start_position": "T47",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -1,
+        "total": 0,
+        "total_strokes": 288,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 71,
+            "tee_time": "2019-04-11T11:59:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T09:03:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T11:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 71,
+            "tee_time": "2019-04-14T08:14:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 209,
+          "cup_rank": "106",
+          "cup_trailing": 1456,
+          "projected_cup_points_total": 221,
+          "projected_cup_points_event": 11,
+          "projected_cup_rank": "103",
+          "projected_money_total": 628994,
+          "projected_money_event": 0,
+          "projected_money_rank": "88",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "88",
+          "money_proj_rank": "88",
+          "points_start_rank": "88",
+          "points_proj_rank": "88",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "107"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "33410",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Andrew",
+          "short_name": "A",
+          "last_name": "Landry",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T46",
+        "start_position": "T50",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -2,
+        "total": 0,
+        "total_strokes": 288,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T08:30:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T11:15:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T10:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 70,
+            "tee_time": "2019-04-14T08:36:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 98,
+          "cup_rank": "172",
+          "cup_trailing": 1567,
+          "projected_cup_points_total": 109,
+          "projected_cup_points_event": 11,
+          "projected_cup_rank": "165",
+          "projected_money_total": 213186,
+          "projected_money_event": 0,
+          "projected_money_rank": "172",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "172",
+          "money_proj_rank": "172",
+          "points_start_rank": "172",
+          "points_proj_rank": "172",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "109"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "26851",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Marc",
+          "short_name": "M",
+          "last_name": "Leishman",
+          "country": "AUS",
+          "is_member": true
+        },
+        "current_position": "T49",
+        "start_position": "T31",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 3,
+        "total": 1,
+        "total_strokes": 289,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T10:42:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T13:27:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 70,
+            "tee_time": "2019-04-13T11:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 75,
+            "tee_time": "2019-04-14T07:30:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 1034,
+          "cup_rank": "7",
+          "cup_trailing": 631,
+          "projected_cup_points_total": 1044,
+          "projected_cup_points_event": 10,
+          "projected_cup_rank": "11",
+          "projected_money_total": 2637106,
+          "projected_money_event": 0,
+          "projected_money_rank": "8",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "8",
+          "money_proj_rank": "8",
+          "points_start_rank": "8",
+          "points_proj_rank": "8",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "92"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "30978",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Kiradech",
+          "short_name": "K",
+          "last_name": "Aphibarnrat",
+          "country": "THA",
+          "is_member": true
+        },
+        "current_position": "T49",
+        "start_position": "T43",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 1,
+        "total": 1,
+        "total_strokes": 289,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 69,
+            "tee_time": "2019-04-11T12:54:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T09:47:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 75,
+            "tee_time": "2019-04-13T13:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 73,
+            "tee_time": "2019-04-14T08:14:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 367,
+          "cup_rank": "66",
+          "cup_trailing": 1298,
+          "projected_cup_points_total": 377,
+          "projected_cup_points_event": 10,
+          "projected_cup_rank": "64",
+          "projected_money_total": 1079030,
+          "projected_money_event": 0,
+          "projected_money_rank": "53",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "53",
+          "money_proj_rank": "53",
+          "points_start_rank": "53",
+          "points_proj_rank": "53",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "107"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "35891",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Cameron",
+          "short_name": "Ca",
+          "last_name": "Smith",
+          "country": "AUS",
+          "is_member": true
+        },
+        "current_position": "T51",
+        "start_position": "T25",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 1,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 18,
+        "today": 5,
+        "total": 2,
+        "total_strokes": 290,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T11:15:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 74,
+            "tee_time": "2019-04-12T14:00:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 69,
+            "tee_time": "2019-04-13T10:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 77,
+            "tee_time": "2019-04-14T07:52:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 405,
+          "cup_rank": "56",
+          "cup_trailing": 1260,
+          "projected_cup_points_total": 413,
+          "projected_cup_points_event": 8,
+          "projected_cup_rank": "57",
+          "projected_money_total": 1132018,
+          "projected_money_event": 0,
+          "projected_money_rank": "51",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "51",
+          "money_proj_rank": "51",
+          "points_start_rank": "51",
+          "points_proj_rank": "51",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "94"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "34709",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Eddie",
+          "short_name": "E",
+          "last_name": "Pepperell",
+          "country": "ENG",
+          "is_member": false
+        },
+        "current_position": "T51",
+        "start_position": "T57",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -1,
+        "total": 2,
+        "total_strokes": 290,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 74,
+            "tee_time": "2019-04-11T09:47:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T12:43:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 72,
+            "tee_time": "2019-04-13T09:05:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 71,
+            "tee_time": "2019-04-14T08:47:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "51",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "110"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "27408",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Martin",
+          "short_name": "M",
+          "last_name": "Kaymer",
+          "country": "GER",
+          "is_member": true
+        },
+        "current_position": "T51",
+        "start_position": "T57",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -1,
+        "total": 2,
+        "total_strokes": 290,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T11:37:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 74,
+            "tee_time": "2019-04-12T08:41:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 72,
+            "tee_time": "2019-04-13T09:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 71,
+            "tee_time": "2019-04-14T08:58:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 42,
+          "cup_rank": "197",
+          "cup_trailing": 1623,
+          "projected_cup_points_total": 50,
+          "projected_cup_points_event": 8,
+          "projected_cup_rank": "192",
+          "projected_money_total": 124916,
+          "projected_money_event": 0,
+          "projected_money_rank": "191",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "191",
+          "money_proj_rank": "191",
+          "points_start_rank": "191",
+          "points_proj_rank": "191",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "111"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "22378",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Trevor",
+          "short_name": "T",
+          "last_name": "Immelman",
+          "country": "RSA",
+          "is_member": true
+        },
+        "current_position": "T51",
+        "start_position": "T63",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -3,
+        "total": 2,
+        "total_strokes": 290,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 74,
+            "tee_time": "2019-04-11T11:37:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T08:41:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 75,
+            "tee_time": "2019-04-13T10:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 69,
+            "tee_time": "2019-04-14T09:20:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 3,
+          "cup_rank": "240",
+          "cup_trailing": 1662,
+          "projected_cup_points_total": 11,
+          "projected_cup_points_event": 8,
+          "projected_cup_rank": "225",
+          "projected_money_total": 6660,
+          "projected_money_event": 0,
+          "projected_money_rank": "244",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "244",
+          "money_proj_rank": "244",
+          "points_start_rank": "244",
+          "points_proj_rank": "244",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "113"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "55888",
+        "player_bio": {
+          "is_amateur": true,
+          "first_name": "Devon",
+          "short_name": "D",
+          "last_name": "Bling",
+          "country": "USA",
+          "is_member": false
+        },
+        "current_position": "55",
+        "start_position": "T50",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 1,
+        "total": 3,
+        "total_strokes": 291,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 74,
+            "tee_time": "2019-04-11T11:37:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T08:41:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 71,
+            "tee_time": "2019-04-13T09:45:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 73,
+            "tee_time": "2019-04-14T08:25:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "",
+          "money_proj_rank": "",
+          "points_start_rank": null,
+          "points_proj_rank": null,
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "108"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "34363",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Tyrrell",
+          "short_name": "T",
+          "last_name": "Hatton",
+          "country": "ENG",
+          "is_member": true
+        },
+        "current_position": "T56",
+        "start_position": "T50",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 2,
+        "total": 4,
+        "total_strokes": 292,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T13:16:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T10:09:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 72,
+            "tee_time": "2019-04-13T10:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 74,
+            "tee_time": "2019-04-14T08:36:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 289,
+          "cup_rank": "79",
+          "cup_trailing": 1376,
+          "projected_cup_points_total": 296,
+          "projected_cup_points_event": 6,
+          "projected_cup_rank": "81",
+          "projected_money_total": 696095,
+          "projected_money_event": 0,
+          "projected_money_rank": "79",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "79",
+          "money_proj_rank": "79",
+          "points_start_rank": "79",
+          "points_proj_rank": "79",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "109"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "29420",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Billy",
+          "short_name": "B",
+          "last_name": "Horschel",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T56",
+        "start_position": "T63",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": -1,
+        "total": 4,
+        "total_strokes": 292,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T12:43:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 75,
+            "tee_time": "2019-04-12T09:36:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 74,
+            "tee_time": "2019-04-13T09:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 71,
+            "tee_time": "2019-04-14T09:09:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 402,
+          "cup_rank": "57",
+          "cup_trailing": 1263,
+          "projected_cup_points_total": 408,
+          "projected_cup_points_event": 6,
+          "projected_cup_rank": "58",
+          "projected_money_total": 971619,
+          "projected_money_event": 0,
+          "projected_money_rank": "59",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "59",
+          "money_proj_rank": "59",
+          "points_start_rank": "59",
+          "points_proj_rank": "59",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "112"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "47917",
+        "player_bio": {
+          "is_amateur": true,
+          "first_name": "Takumi",
+          "short_name": "T",
+          "last_name": "Kanaya",
+          "country": "JPN",
+          "is_member": false
+        },
+        "current_position": "T58",
+        "start_position": "T39",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 6,
+        "total": 5,
+        "total_strokes": 293,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T09:14:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 74,
+            "tee_time": "2019-04-12T11:59:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 68,
+            "tee_time": "2019-04-13T09:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 78,
+            "tee_time": "2019-04-14T07:41:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "",
+          "money_proj_rank": "",
+          "points_start_rank": null,
+          "points_proj_rank": null,
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "104"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "29974",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Branden",
+          "short_name": "B",
+          "last_name": "Grace",
+          "country": "RSA",
+          "is_member": true
+        },
+        "current_position": "T58",
+        "start_position": "T57",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 2,
+        "total": 5,
+        "total_strokes": 293,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T09:36:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 75,
+            "tee_time": "2019-04-12T12:32:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 72,
+            "tee_time": "2019-04-13T09:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 74,
+            "tee_time": "2019-04-14T08:58:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 454,
+          "cup_rank": "48",
+          "cup_trailing": 1211,
+          "projected_cup_points_total": 460,
+          "projected_cup_points_event": 6,
+          "projected_cup_rank": "51",
+          "projected_money_total": 1185130,
+          "projected_money_event": 0,
+          "projected_money_rank": "47",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "47",
+          "money_proj_rank": "47",
+          "points_start_rank": "47",
+          "points_proj_rank": "47",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "111"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "24024",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Zach",
+          "short_name": "Z",
+          "last_name": "Johnson",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T58",
+        "start_position": "T61",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 1,
+        "total": 5,
+        "total_strokes": 293,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 74,
+            "tee_time": "2019-04-11T13:05:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T09:58:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T09:25:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 73,
+            "tee_time": "2019-04-14T09:09:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 176,
+          "cup_rank": "122",
+          "cup_trailing": 1489,
+          "projected_cup_points_total": 182,
+          "projected_cup_points_event": 6,
+          "projected_cup_rank": "117",
+          "projected_money_total": 365525,
+          "projected_money_event": 0,
+          "projected_money_rank": "123",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "123",
+          "money_proj_rank": "123",
+          "points_start_rank": "123",
+          "points_proj_rank": "123",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "112"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "32816",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Satoshi",
+          "short_name": "S",
+          "last_name": "Kodaira",
+          "country": "JPN",
+          "is_member": true
+        },
+        "current_position": "61",
+        "start_position": "T50",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 4,
+        "total": 6,
+        "total_strokes": 294,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T13:27:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 70,
+            "tee_time": "2019-04-12T10:31:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T10:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 76,
+            "tee_time": "2019-04-14T08:36:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 124,
+          "cup_rank": "152",
+          "cup_trailing": 1541,
+          "projected_cup_points_total": 130,
+          "projected_cup_points_event": 5,
+          "projected_cup_rank": "151",
+          "projected_money_total": 359833,
+          "projected_money_event": 0,
+          "projected_money_rank": "127",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "127",
+          "money_proj_rank": "127",
+          "points_start_rank": "127",
+          "points_proj_rank": "127",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "109"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "27141",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "J.B.",
+          "short_name": "J",
+          "last_name": "Holmes",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "T62",
+        "start_position": "T43",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 8,
+        "total": 8,
+        "total_strokes": 296,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 70,
+            "tee_time": "2019-04-11T09:25:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T12:10:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 74,
+            "tee_time": "2019-04-13T12:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 80,
+            "tee_time": "2019-04-14T08:03:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 760,
+          "cup_rank": "18",
+          "cup_trailing": 905,
+          "projected_cup_points_total": 764,
+          "projected_cup_points_event": 5,
+          "projected_cup_rank": "20",
+          "projected_money_total": 1911620,
+          "projected_money_event": 0,
+          "projected_money_rank": "20",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "20",
+          "money_proj_rank": "20",
+          "points_start_rank": "20",
+          "points_proj_rank": "20",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "106"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "01666",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Bernhard",
+          "short_name": "B",
+          "last_name": "Langer",
+          "country": "GER",
+          "is_member": true
+        },
+        "current_position": "T62",
+        "start_position": "T50",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 6,
+        "total": 8,
+        "total_strokes": 296,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 71,
+            "tee_time": "2019-04-11T12:10:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T09:14:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 75,
+            "tee_time": "2019-04-13T12:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 78,
+            "tee_time": "2019-04-14T08:47:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 0,
+          "cup_rank": "T253",
+          "cup_trailing": 1665,
+          "projected_cup_points_total": 5,
+          "projected_cup_points_event": 5,
+          "projected_cup_rank": "236",
+          "projected_money_total": 0,
+          "projected_money_event": 0,
+          "projected_money_rank": "T251",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "T251",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "110"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "31646",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Emiliano",
+          "short_name": "E",
+          "last_name": "Grillo",
+          "country": "ARG",
+          "is_member": true
+        },
+        "current_position": "T62",
+        "start_position": "T61",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 4,
+        "total": 8,
+        "total_strokes": 296,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T09:36:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 75,
+            "tee_time": "2019-04-12T12:32:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 73,
+            "tee_time": "2019-04-13T09:15:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 76,
+            "tee_time": "2019-04-14T09:09:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 459,
+          "cup_rank": "45",
+          "cup_trailing": 1206,
+          "projected_cup_points_total": 464,
+          "projected_cup_points_event": 5,
+          "projected_cup_rank": "50",
+          "projected_money_total": 1146177,
+          "projected_money_event": 0,
+          "projected_money_rank": "49",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "49",
+          "money_proj_rank": "49",
+          "points_start_rank": "49",
+          "points_proj_rank": "49",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "112"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "27349",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Alex",
+          "short_name": "A",
+          "last_name": "Noren",
+          "country": "SWE",
+          "is_member": true
+        },
+        "current_position": "T62",
+        "start_position": "65",
+        "status": "active",
+        "thru": 18,
+        "start_hole": 10,
+        "course_id": "014",
+        "current_round": 4,
+        "course_hole": 9,
+        "today": 2,
+        "total": 8,
+        "total_strokes": 296,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T12:32:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T09:25:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": 75,
+            "tee_time": "2019-04-13T09:35:00"
+          },
+          {
+            "round_number": 4,
+            "strokes": 74,
+            "tee_time": "2019-04-14T09:20:00"
+          }
+        ],
+        "rankings": {
+          "cup_points": 162,
+          "cup_rank": "129",
+          "cup_trailing": 1503,
+          "projected_cup_points_total": 167,
+          "projected_cup_points_event": 5,
+          "projected_cup_rank": "125",
+          "projected_money_total": 405494,
+          "projected_money_event": 0,
+          "projected_money_rank": "117",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "117",
+          "money_proj_rank": "117",
+          "points_start_rank": "117",
+          "points_proj_rank": "117",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": "113"
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "01717",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Sandy",
+          "short_name": "S",
+          "last_name": "Lyle",
+          "country": "SCO",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 4,
+        "total_strokes": 148,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T11:26:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 75,
+            "tee_time": "2019-04-12T08:30:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 0,
+          "cup_rank": "T253",
+          "cup_trailing": 1665,
+          "projected_cup_points_total": 0,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "T252",
+          "projected_money_total": 0,
+          "projected_money_event": 0,
+          "projected_money_rank": "T251",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "T251",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "20229",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Stewart",
+          "short_name": "S",
+          "last_name": "Cink",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 4,
+        "total_strokes": 148,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 76,
+            "tee_time": "2019-04-11T11:48:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T08:52:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 111,
+          "cup_rank": "162",
+          "cup_trailing": 1554,
+          "projected_cup_points_total": 111,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "164",
+          "projected_money_total": 249338,
+          "projected_money_event": 0,
+          "projected_money_rank": "161",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "161",
+          "money_proj_rank": "161",
+          "points_start_rank": "161",
+          "points_proj_rank": "161",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "22405",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Justin",
+          "short_name": "J",
+          "last_name": "Rose",
+          "country": "ENG",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 4,
+        "total_strokes": 148,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T13:49:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T10:53:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 877,
+          "cup_rank": "12",
+          "cup_trailing": 788,
+          "projected_cup_points_total": 877,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "16",
+          "projected_money_total": 2431269,
+          "projected_money_event": 0,
+          "projected_money_rank": "13",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "13",
+          "money_proj_rank": "13",
+          "points_start_rank": "13",
+          "points_proj_rank": "13",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "34449",
+        "player_bio": {
+          "is_amateur": true,
+          "first_name": "Kevin",
+          "short_name": "K",
+          "last_name": "O'Connell",
+          "country": "USA",
+          "is_member": false
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 4,
+        "total_strokes": 148,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 77,
+            "tee_time": "2019-04-11T08:52:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T11:37:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "",
+          "money_proj_rank": "",
+          "points_start_rank": null,
+          "points_proj_rank": null,
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "10423",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Mike",
+          "short_name": "M",
+          "last_name": "Weir",
+          "country": "CAN",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 4,
+        "total_strokes": 148,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 72,
+            "tee_time": "2019-04-11T08:52:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 76,
+            "tee_time": "2019-04-12T11:37:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 0,
+          "cup_rank": "T253",
+          "cup_trailing": 1665,
+          "projected_cup_points_total": 0,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "T252",
+          "projected_money_total": 0,
+          "projected_money_event": 0,
+          "projected_money_rank": "T251",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "T251",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "32139",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Danny",
+          "short_name": "D",
+          "last_name": "Willett",
+          "country": "ENG",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 4,
+        "total_strokes": 148,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T09:14:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T11:59:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 135,
+          "cup_rank": "148",
+          "cup_trailing": 1530,
+          "projected_cup_points_total": 135,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "149",
+          "projected_money_total": 286523,
+          "projected_money_event": 0,
+          "projected_money_rank": "148",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "148",
+          "money_proj_rank": "148",
+          "points_start_rank": "148",
+          "points_proj_rank": "148",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "21209",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Sergio",
+          "short_name": "S",
+          "last_name": "Garcia",
+          "country": "ESP",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 4,
+        "total_strokes": 148,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T09:58:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 75,
+            "tee_time": "2019-04-12T12:54:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 337,
+          "cup_rank": "70",
+          "cup_trailing": 1328,
+          "projected_cup_points_total": 337,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "71",
+          "projected_money_total": 932296,
+          "projected_money_event": 0,
+          "projected_money_rank": "63",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "63",
+          "money_proj_rank": "63",
+          "points_start_rank": "63",
+          "points_proj_rank": "63",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "35449",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Adam",
+          "short_name": "A",
+          "last_name": "Long",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 5,
+        "total_strokes": 149,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T08:30:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 74,
+            "tee_time": "2019-04-12T11:15:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 572,
+          "cup_rank": "32",
+          "cup_trailing": 1093,
+          "projected_cup_points_total": 572,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "34",
+          "projected_money_total": 1307493,
+          "projected_money_event": 0,
+          "projected_money_rank": "39",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "39",
+          "money_proj_rank": "39",
+          "points_start_rank": "39",
+          "points_proj_rank": "39",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "27649",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Brandt",
+          "short_name": "B",
+          "last_name": "Snedeker",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 5,
+        "total_strokes": 149,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T09:14:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 74,
+            "tee_time": "2019-04-12T11:59:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 566,
+          "cup_rank": "33",
+          "cup_trailing": 1099,
+          "projected_cup_points_total": 566,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "37",
+          "projected_money_total": 1506071,
+          "projected_money_event": 0,
+          "projected_money_rank": "32",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "32",
+          "money_proj_rank": "32",
+          "points_start_rank": "32",
+          "points_proj_rank": "32",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "01226",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Fred",
+          "short_name": "F",
+          "last_name": "Couples",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 5,
+        "total_strokes": 149,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 78,
+            "tee_time": "2019-04-11T09:25:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 71,
+            "tee_time": "2019-04-12T12:10:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 13,
+          "cup_rank": "222",
+          "cup_trailing": 1652,
+          "projected_cup_points_total": 13,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "222",
+          "projected_money_total": 23680,
+          "projected_money_event": 0,
+          "projected_money_rank": "226",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "226",
+          "money_proj_rank": "226",
+          "points_start_rank": "226",
+          "points_proj_rank": "226",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "26331",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Charl",
+          "short_name": "C",
+          "last_name": "Schwartzel",
+          "country": "RSA",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 5,
+        "total_strokes": 149,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 77,
+            "tee_time": "2019-04-11T09:47:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 72,
+            "tee_time": "2019-04-12T12:43:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 113,
+          "cup_rank": "158",
+          "cup_trailing": 1552,
+          "projected_cup_points_total": 113,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "159",
+          "projected_money_total": 232725,
+          "projected_money_event": 0,
+          "projected_money_rank": "165",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "165",
+          "money_proj_rank": "165",
+          "points_start_rank": "165",
+          "points_proj_rank": "165",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "32775",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Shugo",
+          "short_name": "S",
+          "last_name": "Imahira",
+          "country": "JPN",
+          "is_member": false
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 6,
+        "total_strokes": 150,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 76,
+            "tee_time": "2019-04-11T12:54:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 74,
+            "tee_time": "2019-04-12T09:47:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "165",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "01823",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Larry",
+          "short_name": "L",
+          "last_name": "Mize",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 7,
+        "total_strokes": 151,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 77,
+            "tee_time": "2019-04-11T11:48:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 74,
+            "tee_time": "2019-04-12T08:52:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 0,
+          "cup_rank": "T253",
+          "cup_trailing": 1665,
+          "projected_cup_points_total": 0,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "T252",
+          "projected_money_total": 0,
+          "projected_money_event": 0,
+          "projected_money_rank": "T251",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "T251",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "33204",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Shane",
+          "short_name": "S",
+          "last_name": "Lowry",
+          "country": "IRL",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 7,
+        "total_strokes": 151,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 78,
+            "tee_time": "2019-04-11T08:52:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T11:37:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 35,
+          "cup_rank": "203",
+          "cup_trailing": 1630,
+          "projected_cup_points_total": 35,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "203",
+          "projected_money_total": 131813,
+          "projected_money_event": 0,
+          "projected_money_rank": "188",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "188",
+          "money_proj_rank": "188",
+          "points_start_rank": "188",
+          "points_proj_rank": "188",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "48887",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Matt",
+          "short_name": "M",
+          "last_name": "Wallace",
+          "country": "ENG",
+          "is_member": false
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 8,
+        "total_strokes": 152,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 75,
+            "tee_time": "2019-04-11T12:10:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 77,
+            "tee_time": "2019-04-12T09:14:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "188",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "51563",
+        "player_bio": {
+          "is_amateur": true,
+          "first_name": "Jovan",
+          "short_name": "J",
+          "last_name": "Rebula",
+          "country": "RSA",
+          "is_member": false
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 8,
+        "total_strokes": 152,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 73,
+            "tee_time": "2019-04-11T12:43:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 79,
+            "tee_time": "2019-04-12T09:36:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "",
+          "money_proj_rank": "",
+          "points_start_rank": null,
+          "points_proj_rank": null,
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "39975",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Michael",
+          "short_name": "M",
+          "last_name": "Kim",
+          "country": "USA",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 10,
+        "total_strokes": 154,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 76,
+            "tee_time": "2019-04-11T11:26:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 78,
+            "tee_time": "2019-04-12T08:30:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 34,
+          "cup_rank": "204",
+          "cup_trailing": 1631,
+          "projected_cup_points_total": 34,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "204",
+          "projected_money_total": 104936,
+          "projected_money_event": 0,
+          "projected_money_rank": "193",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "193",
+          "money_proj_rank": "193",
+          "points_start_rank": "193",
+          "points_proj_rank": "193",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "25364",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Paul",
+          "short_name": "P",
+          "last_name": "Casey",
+          "country": "ENG",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 10,
+        "total_strokes": 154,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 81,
+            "tee_time": "2019-04-11T14:00:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 73,
+            "tee_time": "2019-04-12T11:04:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 1261,
+          "cup_rank": "4",
+          "cup_trailing": 404,
+          "projected_cup_points_total": 1261,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "4",
+          "projected_money_total": 3199473,
+          "projected_money_event": 0,
+          "projected_money_rank": "4",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "4",
+          "money_proj_rank": "4",
+          "points_start_rank": "4",
+          "points_proj_rank": "4",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "06567",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Vijay",
+          "short_name": "V",
+          "last_name": "Singh",
+          "country": "FIJ",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 12,
+        "total_strokes": 156,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 80,
+            "tee_time": "2019-04-11T12:43:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 76,
+            "tee_time": "2019-04-12T09:36:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 100,
+          "cup_rank": "171",
+          "cup_trailing": 1565,
+          "projected_cup_points_total": 100,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "173",
+          "projected_money_total": 244800,
+          "projected_money_event": 0,
+          "projected_money_rank": "163",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "163",
+          "money_proj_rank": "163",
+          "points_start_rank": "163",
+          "points_proj_rank": "163",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "02300",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Ian",
+          "short_name": "I",
+          "last_name": "Woosnam",
+          "country": "WAL",
+          "is_member": false
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 12,
+        "total_strokes": 156,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 80,
+            "tee_time": "2019-04-11T08:41:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 76,
+            "tee_time": "2019-04-12T11:26:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": null,
+          "cup_rank": "",
+          "cup_trailing": null,
+          "projected_cup_points_total": null,
+          "projected_cup_points_event": null,
+          "projected_cup_rank": "",
+          "projected_money_total": null,
+          "projected_money_event": 0,
+          "projected_money_rank": "",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "163",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "06373",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Jose Maria",
+          "short_name": "J",
+          "last_name": "Olazabal",
+          "country": "ESP",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 13,
+        "total_strokes": 157,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 78,
+            "tee_time": "2019-04-11T11:59:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 79,
+            "tee_time": "2019-04-12T09:03:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 0,
+          "cup_rank": "T253",
+          "cup_trailing": 1665,
+          "projected_cup_points_total": 0,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "T252",
+          "projected_money_total": 0,
+          "projected_money_event": 0,
+          "projected_money_rank": "T251",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "T251",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      },
+      {
+        "debug": {
+          "found_in_setup_file": true
+        },
+        "player_id": "20848",
+        "player_bio": {
+          "is_amateur": false,
+          "first_name": "Angel",
+          "short_name": "A",
+          "last_name": "Cabrera",
+          "country": "ARG",
+          "is_member": true
+        },
+        "current_position": "",
+        "start_position": "",
+        "status": "cut",
+        "thru": null,
+        "start_hole": null,
+        "course_id": "",
+        "current_round": null,
+        "course_hole": null,
+        "today": null,
+        "total": 13,
+        "total_strokes": 157,
+        "rounds": [
+          {
+            "round_number": 1,
+            "strokes": 82,
+            "tee_time": "2019-04-11T09:03:00"
+          },
+          {
+            "round_number": 2,
+            "strokes": 75,
+            "tee_time": "2019-04-12T11:48:00"
+          },
+          {
+            "round_number": 3,
+            "strokes": null,
+            "tee_time": null
+          },
+          {
+            "round_number": 4,
+            "strokes": null,
+            "tee_time": null
+          }
+        ],
+        "rankings": {
+          "cup_points": 0,
+          "cup_rank": "T253",
+          "cup_trailing": 1665,
+          "projected_cup_points_total": 0,
+          "projected_cup_points_event": 0,
+          "projected_cup_rank": "T252",
+          "projected_money_total": 0,
+          "projected_money_event": 0,
+          "projected_money_rank": "T251",
+          "priority_proj_rank": "",
+          "priority_proj_sort": null,
+          "priority_start_rank": "",
+          "priority_start_sort": null,
+          "priority_seed": null,
+          "schwab_start_rank": "",
+          "schwab_proj_rank": "",
+          "money_start_rank": "253",
+          "money_proj_rank": "T251",
+          "points_start_rank": "253",
+          "points_proj_rank": "T251",
+          "top25_seed": null,
+          "start_rank": "",
+          "proj_rank": "",
+          "proj_sort": null
+        },
+        "group_id": ""
+      }
+    ]
+  }
+}
