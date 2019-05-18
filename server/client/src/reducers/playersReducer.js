@@ -34,7 +34,7 @@ export default function(state = [], action) {
             // } else {
 
             if (golfer.tournaments[tournament].today == null) {
-              return "";
+              return null;
             } else {
               golfer.tournaments[tournament].scores[
                 roundFormattedToIncomingData
