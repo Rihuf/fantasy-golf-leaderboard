@@ -139,13 +139,24 @@ export default function(state = [], action) {
 
           // Get total of the lowest scores in each round
           if (allGolferScoresForThisRound.length > 0) {
-            allGolferScoresForThisRound.sort((a, b) => a - b);
-            allGolferScoresForThisRound.splice(4, 6);
-
-            //Sum those scores
-            const playerScoreForThisRound = allGolferScoresForThisRound.reduce(
-              (accumulator, currentValue) => accumulator + currentValue
+            const filteredGolferScoresForThisRound = allGolferScoresForThisRound.filter(
+              score => {
+                return score != null && score < 100;
+              }
             );
+
+            filteredGolferScoresForThisRound.sort((a, b) => a - b);
+            filteredGolferScoresForThisRound.splice(4, 6);
+
+            //Sum those scores, but first initialize variable to point to scores
+            let playerScoreForThisRound = 0;
+            if (filteredGolferScoresForThisRound.length > 0) {
+              playerScoreForThisRound = filteredGolferScoresForThisRound.reduce(
+                (accumulator, currentValue) => accumulator + currentValue
+              );
+            } else {
+              playerScoreForThisRound = "E";
+            }
 
             //Push the sum for this round to the target array
             allPlayerScoresForThisTournament.push(playerScoreForThisRound);
