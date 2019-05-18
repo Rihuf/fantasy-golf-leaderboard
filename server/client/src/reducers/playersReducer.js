@@ -33,12 +33,15 @@ export default function(state = [], action) {
             //   golfer.tournaments[tournament].today = "";
             // } else {
 
-            golfer.tournaments[tournament].scores[
-              roundFormattedToIncomingData
-            ] = parseInt(golfer.tournaments[tournament].today);
+            if (golfer.tournaments[tournament].today == null) {
+              return "";
+            } else {
+              golfer.tournaments[tournament].scores[
+                roundFormattedToIncomingData
+              ] = parseInt(golfer.tournaments[tournament].today);
 
-            return parseInt(golfer.tournaments[tournament].today);
-            // }
+              return parseInt(golfer.tournaments[tournament].today);
+            }
           } else {
             const roundFormattedToIncomingData = "round" + round;
             let scoreForSpecificRound = null;

@@ -8,7 +8,7 @@ export class GolferCard extends Component {
       if (round === 0) {
         return "E";
       } else if (round == 100) {
-        return "cut";
+        return "X";
       } else return round;
     }
   }
