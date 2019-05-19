@@ -141,7 +141,7 @@ router.get("/get_pga_data", (request, response, next) => {
     .then(res => {
       // console.log(res.data.leaderboard.players);
       const players = res.data.leaderboard.players;
-      // response.send(res.data.leaderboard);
+      response.send(res.data.leaderboard);
 
       try {
         players.forEach(index => {
@@ -172,9 +172,9 @@ router.get("/get_pga_data", (request, response, next) => {
                 "tournaments.pga.scores.round4": round4
               }
             }
-            //below is to execute the findOneAndUpdate. I think a simple exec() can go here? But
-            //haven't researched enough
-          ).then(a => {});
+          ).then(name => {
+            console.log(name);
+          });
         });
       } catch (error) {
         console.error(error.message);

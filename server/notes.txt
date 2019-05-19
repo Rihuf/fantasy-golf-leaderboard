@@ -11,3 +11,5 @@ Uncomment the setInterval function in the componentDidMount methods of Tournamen
 
 
 
+pushing to heroku:
+git subtree push --prefix server heroku master

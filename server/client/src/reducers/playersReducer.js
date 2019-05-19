@@ -4,6 +4,7 @@ export default function(state = [], action) {
   switch (action.type) {
     case GET_PLAYERS:
       // console.log("FROM PLAYERREDUCER", action.payload.data);
+      console.log("reducer hit");
 
       let getScoreForGolferInRoundInTournament = (
         golfer,

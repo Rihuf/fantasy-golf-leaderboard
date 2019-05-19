@@ -8,7 +8,7 @@ export class TournamentGridPreview extends Component {
   //on page load, go get the players
   componentDidMount() {
     this.props.getPlayers();
-    // setInterval(this.props.getPlayers, 30000);
+    setInterval(this.props.getPlayers, 30000);
   }
 
   renderLeaderboardPreview() {

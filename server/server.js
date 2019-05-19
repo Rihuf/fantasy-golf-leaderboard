@@ -8,10 +8,7 @@ const keys = require("./config/keys");
 var request = require("request");
 var CronJob = require("cron").CronJob;
 
-mongoose.connect(keys.MONGODB_URI, {
-  useNewUrlParser: true,
-  useFindAndModify: false
-});
+mongoose.connect(keys.MONGODB_URI, { useNewUrlParser: true });
 
 app.use(cors());
 
@@ -26,11 +23,11 @@ app.use("/golfer", golferRoutes);
 
 var callPGAData = new CronJob("*/60 * * * * *", function() {
   console.log("how often?");
-  // request("http://localhost:5000/golfer/get_pga_data");
-  request("https://the-salisbury-open.herokuapp.com/golfer/get_pga_data");
+  request("http://localhost:5000/golfer/get_pga_data");
+  // request("https://the-salisbury-open.herokuapp.com/golfer/get_pga_data");
 });
 
-// callPGAData.start();
+callPGAData.start();
 
 if (process.env.NODE_ENV === "production") {
   // Express will serve up production assets
