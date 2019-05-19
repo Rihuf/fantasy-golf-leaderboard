@@ -156,7 +156,8 @@
     text-align: center;
     grid-gap: 1px;
     background: #e7e7e7;
-    font-size: 0.9rem; }
+    font-size: 0.9rem;
+    transition: all 0.3s ease-out; }
     .home-page-tournament-leaderboard .grid :nth-child(6n + 1) {
       background: #fff; }
     .home-page-tournament-leaderboard .grid :nth-child(6n + 2) {
@@ -245,6 +246,37 @@ a {
     align-items: center;
     justify-content: center; }
 
+.leaderboard-footer-container {
+  top: 56px;
+  width: 100%;
+  height: 30px;
+  background: white;
+  color: white;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 60px auto 60px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase; }
+  .leaderboard-footer-container .position {
+    background: #464f69;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .leaderboard-footer-container .name {
+    background: #464f69;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5px; }
+  .leaderboard-footer-container .score {
+    background: #464f69;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
 .player-container {
   width: 100%;
   height: 30px;
@@ -255,7 +287,8 @@ a {
   grid-template-columns: 60px auto 60px;
   border-top: 1px solid grey;
   font-family: "Roboto", sans-serif;
-  font-weight: 500; }
+  font-weight: 500;
+  transition: all 0.3s ease-out; }
   .player-container .position {
     background: #eee;
     display: flex;

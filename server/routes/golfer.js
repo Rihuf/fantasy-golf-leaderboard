@@ -139,9 +139,9 @@ router.get("/get_pga_data", (request, response, next) => {
   axios
     .get("https://statdata.pgatour.com/r/033/leaderboard-v2mini.json")
     .then(res => {
-      console.log(res.data.leaderboard.players);
+      // console.log(res.data.leaderboard.players);
       const players = res.data.leaderboard.players;
-      response.send(res.data.leaderboard);
+      // response.send(res.data.leaderboard);
 
       try {
         players.forEach(index => {
@@ -172,9 +172,9 @@ router.get("/get_pga_data", (request, response, next) => {
                 "tournaments.pga.scores.round4": round4
               }
             }
-          ).then(name => {
-            console.log(name);
-          });
+            //below is to execute the findOneAndUpdate. I think a simple exec() can go here? But
+            //haven't researched enough
+          ).then(a => {});
         });
       } catch (error) {
         console.error(error.message);

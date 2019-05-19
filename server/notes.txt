@@ -1,25 +1,13 @@
-FRONT END
-___________________________________
+Steps to take for the US OPEN implimentation:
 
-(React and Styling)
-1. Build out Rules & FAQs Components.
-2. Build out About Components.
-3. Transition Styling.
+Remove dates on Preview Leaderboard and add actual preview.
+Add get_usopen_data route on the golfer routes file (copy from masters/pga route).
+Add golfers new golfers with matching PGA ID, via postman route -- call the above route to populate the golfers.
+Record new ObjectIds in sheets.google.com > sketchpad.
+Add the golfers to the Player teams after the email comes. 
+Check Slack self DMs for instructions on copying local DB to mLab DB.
+Uncomment the cronjob, and edit the variable name/url.
+Uncomment the setInterval function in the componentDidMount methods of TournamentGridPreview and Leaderboard.
 
-(Redux)
-1. Calculate Sums for the Rounds.         XXXXXXXXXXXXXX
-2. Calculate Totals for the Players.      XXXXXXXXXXXXXX
-3. Get player total to parent component
-4. Sort the Players on the leaderboards.
-
-
-
-
-BACK END
-___________________________________
-
-1. Retrieve the API call and build out the Golfers (masters) with it.
-2. Input all 40 players.
-3. Add Masters golfers to the players.
 
 

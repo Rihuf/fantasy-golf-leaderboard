@@ -8,6 +8,7 @@ export class TournamentGridPreview extends Component {
   //on page load, go get the players
   componentDidMount() {
     this.props.getPlayers();
+    setInterval(this.props.getPlayers, 30000);
   }
 
   renderLeaderboardPreview() {
@@ -16,7 +17,6 @@ export class TournamentGridPreview extends Component {
     } else {
       const { players } = this.props;
       const { tournament } = this.props.tournament;
-      console.log("tournament: ", tournament);
 
       //sum the player's scoresByRounad for this tournament
       players.forEach(player => {
@@ -33,7 +33,7 @@ export class TournamentGridPreview extends Component {
       players.sort(
         (a, b) => a.scoreTotals[tournament] - b.scoreTotals[tournament]
       );
-      console.log("helllooooo: ", players[37].scoreTotals[tournament]);
+
       return players.map((p, index) => {
         if (index < 6) {
           return (

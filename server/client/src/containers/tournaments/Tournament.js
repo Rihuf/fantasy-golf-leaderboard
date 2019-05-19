@@ -28,6 +28,11 @@ export class Tournament extends Component {
           <div className="score">Total</div>
         </div>
         <Leaderboard key={tournament} tournament={tournament} />
+        <div className="leaderboard-footer-container">
+          <div className="position">Pos</div>
+          <div className="name">Player</div>
+          <div className="score">Total</div>
+        </div>
       </React.Fragment>
     );
   }

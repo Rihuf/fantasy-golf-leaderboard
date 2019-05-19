@@ -47,6 +47,7 @@
     grid-gap: 1px;
     background: rgb(231, 231, 231);
     font-size: 0.9rem;
+    @include easeOut;
 
     :nth-child(6n + 1) {
       background: #fff;
