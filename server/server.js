@@ -5,8 +5,8 @@ const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 5000;
 const keys = require("./config/keys");
-var request = require("request");
-var CronJob = require("cron").CronJob;
+// var request = require("request");
+// var CronJob = require("cron").CronJob;
 
 mongoose.connect(keys.MONGODB_URI, { useNewUrlParser: true });
 
@@ -21,13 +21,13 @@ const golferRoutes = require("./routes/golfer");
 app.use("/player", playerRoutes);
 app.use("/golfer", golferRoutes);
 
-var callPGAData = new CronJob("*/60 * * * * *", function() {
-  console.log("how often?");
-  request("http://localhost:5000/golfer/get_pga_data");
-  // request("https://the-salisbury-open.herokuapp.com/golfer/get_pga_data");
-});
+// var callPGAData = new CronJob("*/60 * * * * *", function() {
+//   console.log("how often?");
+//   request("http://localhost:5000/golfer/get_pga_data");
+//   // request("https://the-salisbury-open.herokuapp.com/golfer/get_pga_data");
+// });
 
-callPGAData.start();
+// callPGAData.start();
 
 if (process.env.NODE_ENV === "production") {
   // Express will serve up production assets
