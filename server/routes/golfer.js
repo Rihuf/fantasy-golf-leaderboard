@@ -141,7 +141,7 @@ router.get("/get_pga_data", (request, response, next) => {
     .then(res => {
       // console.log(res.data.leaderboard.players);
       const players = res.data.leaderboard.players;
-      response.send(res.data.leaderboard);
+      response.send("API hit success");
 
       try {
         players.forEach(index => {
