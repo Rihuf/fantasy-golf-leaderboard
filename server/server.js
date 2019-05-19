@@ -30,7 +30,7 @@ var callPGAData = new CronJob("*/60 * * * * *", function() {
   request("https://the-salisbury-open.herokuapp.com/golfer/get_pga_data");
 });
 
-callPGAData.start();
+// callPGAData.start();
 
 if (process.env.NODE_ENV === "production") {
   // Express will serve up production assets
