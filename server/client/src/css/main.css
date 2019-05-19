@@ -156,8 +156,7 @@
     text-align: center;
     grid-gap: 1px;
     background: #e7e7e7;
-    font-size: 0.9rem;
-    transition: all 0.3s ease-out; }
+    font-size: 0.9rem; }
     .home-page-tournament-leaderboard .grid :nth-child(6n + 1) {
       background: #fff; }
     .home-page-tournament-leaderboard .grid :nth-child(6n + 2) {
@@ -287,8 +286,7 @@ a {
   grid-template-columns: 60px auto 60px;
   border-top: 1px solid grey;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  transition: all 0.3s ease-out; }
+  font-weight: 500; }
   .player-container .position {
     background: #eee;
     display: flex;

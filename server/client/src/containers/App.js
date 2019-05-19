@@ -13,7 +13,6 @@ export default class App extends Component {
   };
 
   hamburgerClick = e => {
-    console.log(this.state.showMenu);
     if (!this.state.showMenu) {
       this.setState({ showMenu: true });
     } else {
@@ -22,7 +21,6 @@ export default class App extends Component {
   };
 
   tournamentsClick = e => {
-    console.log(this.state.showTournaments);
     if (!this.state.showTournaments) {
       this.setState({ showTournaments: true });
     } else {
