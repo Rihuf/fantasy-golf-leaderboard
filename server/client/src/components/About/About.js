@@ -30,6 +30,9 @@ export default function About() {
           <br />
           <br />
           Lowest 4 round total wins.
+          <br />
+          <br />
+          DISCLAIMER: All scores are this site are subject to validation.
           {/* Head over to the{" "}
           <a href="/rules" className="about-rules-link">
             Rules and FAQ{" "}

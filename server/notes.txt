@@ -1,10 +1,11 @@
 Steps to take for the US OPEN implimentation:
 
-Remove dates on Preview Leaderboard and add actual preview.
+--- Remove dates on Preview Leaderboard and add actual preview.
 Add get_usopen_data route on the golfer routes file (copy from masters/pga route).
-Add golfers new golfers with matching PGA ID, via postman route -- call the above route to populate the golfers.
-Record new ObjectIds in sheets.google.com > sketchpad.
-Add the golfers to the Player teams after the email comes. 
+https://statdata.pgatour.com/r/current/message.json to get current Tournament ID
+Add new golfers with matching PGA ID, via postman route -- call the above route to populate the golfers.
+Record new ObjectIds in sheets.google.com > TSO.
+Add the golfers to the Player teams comes. 
 Check Slack self DMs for instructions on copying local DB to mLab DB.
 Uncomment the cronjob, and edit the variable name/url.
 Uncomment the setInterval function in the componentDidMount methods of TournamentGridPreview and Leaderboard.

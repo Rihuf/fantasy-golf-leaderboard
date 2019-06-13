@@ -6,7 +6,10 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const keys = require("./config/keys");
 
-mongoose.connect(keys.MONGODB_URI, { useNewUrlParser: true });
+mongoose.connect(keys.MONGODB_URI, {
+  useNewUrlParser: true,
+  useFindAndModify: false
+});
 
 app.use(cors());
 
