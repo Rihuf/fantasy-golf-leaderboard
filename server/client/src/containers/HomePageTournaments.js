@@ -26,9 +26,9 @@ export class HomePageTournaments extends Component {
     return (
       <React.Fragment>
         {this.renderBlocks()}
-        <a href={`/cumulative`} className="homepage-tournament-links noSelect">
-          <CumulativeBlock />
-        </a>
+        {/* <a href={`/cumulative`} className="homepage-tournament-links noSelect"> */}
+        <CumulativeBlock />
+        {/* </a> */}
       </React.Fragment>
     );
   }

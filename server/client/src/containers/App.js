@@ -52,6 +52,11 @@ export default class App extends Component {
           <Route exact path="/about" render={() => <About />} />
           <Route exact path="/cumulative" render={() => <Cumulative />} />
           <Route
+            exact
+            path="/cumulative"
+            render={() => <Redirect to="/home" />}
+          />
+          <Route
             path="/:tournament"
             render={props => <Tournament {...props} />}
           />

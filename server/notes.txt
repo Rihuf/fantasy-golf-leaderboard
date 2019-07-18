@@ -17,3 +17,6 @@ Check the setInterval function in the componentDidMount methods of TournamentGri
 
 pushing to heroku:
 git subtree push --prefix server heroku master
+
+
+To make Cumulative block clickable -- go to HomePageTournaments.js and uncomment the a ref tags.
