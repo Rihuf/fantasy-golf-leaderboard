@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Tournament from "./tournaments/Tournament";
 import Rules from "../components/Rules/Rules";
 import About from "../components/About/About";
+import Cumulative from "./tournaments/Cumulative";
 
 export default class App extends Component {
   state = {
@@ -49,6 +50,7 @@ export default class App extends Component {
           <Route exact path="/home" render={() => <HomePageTournaments />} />
           <Route exact path="/rules" render={() => <Rules />} />
           <Route exact path="/about" render={() => <About />} />
+          <Route exact path="/cumulative" render={() => <Cumulative />} />
           <Route
             path="/:tournament"
             render={props => <Tournament {...props} />}

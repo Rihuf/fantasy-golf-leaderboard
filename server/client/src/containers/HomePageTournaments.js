@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import HomePageTournamentBlock from "./TournamentBlock";
+import CumulativeBlock from "./CumulativeBlock";
 
 export class HomePageTournaments extends Component {
   routeOnClick() {}
@@ -22,7 +23,14 @@ export class HomePageTournaments extends Component {
   }
 
   render() {
-    return <React.Fragment>{this.renderBlocks()}</React.Fragment>;
+    return (
+      <React.Fragment>
+        {this.renderBlocks()}
+        <a href={`/cumulative`} className="homepage-tournament-links noSelect">
+          <CumulativeBlock />
+        </a>
+      </React.Fragment>
+    );
   }
 }
 

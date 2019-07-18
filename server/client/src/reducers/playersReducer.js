@@ -74,7 +74,7 @@ export default function(state = [], action) {
            ***********************************************************/
           if (golfer.tournaments[tournament].current_round == round) {
             const roundFormattedToIncomingData = "round" + round;
-
+            console.log(golfer);
             if (
               golfer.tournaments[tournament].scores[
                 roundFormattedToIncomingData

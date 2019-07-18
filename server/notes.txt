@@ -1,8 +1,11 @@
 Steps to take for the US OPEN implimentation:
 
-Remove dates on Preview Leaderboard and add actual preview.
+Remove dates on Preview Leaderboard and add actual preview ---> lines 35-37 in TournamentBlock.js ---> remove tournament from the conditional.
 Add get_usopen_data route on the golfer routes file (copy from masters/pga route).
-https://statdata.pgatour.com/r/current/message.json to get current Tournament ID
++++ npm start and npm server need to be running from the server folder +++
++++ the above must be true for the routes to update and be accessible +++
++++ is npm server not working? try killing port 5000 +++
+https://statdata.pgatour.com/r/current/message.json to get current Tournament ID (for the Open, it uses the same link -- an async issue determines what will display, just keep refreshing until you get the right one...)
 Add new golfers with matching PGA ID, via postman route -- call the above route to populate the golfers.
 Record new ObjectIds in sheets.google.com > TSO.
 Add the golfers to the Player teams comes. 

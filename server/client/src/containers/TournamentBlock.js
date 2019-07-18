@@ -34,7 +34,8 @@ export class HomePageTournamentBlock extends Component {
     } else if (
       this.props.tournament.tournament == "masters" ||
       this.props.tournament.tournament == "pga" ||
-      this.props.tournament.tournament == "usopen"
+      this.props.tournament.tournament == "usopen" ||
+      this.props.tournament.tournament == "open"
     ) {
       const { tournament } = this.props;
       return <TournamentGridPreview tournament={tournament} />;
